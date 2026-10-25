@@ -1,18 +1,18 @@
 cff-version: 1.2.0
 type: software
-message: "Cite research-software distribution 1.0.0 using its Zenodo version DOI, 10.5281/zenodo.23633155. The preserved runtime baseline is 0.1.0-dev.10; historical generating source versions retain their actual identities."
-title: "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates — reproducibility software"
-version: "1.0.0"
+message: "Cite research-software distribution 1.1.0 using its Zenodo version DOI. The preserved core runtime baseline is 0.1.0-dev.10; historical sources retain their actual identities."
+title: "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates — software and reproducibility evidence"
+version: "1.1.0"
 date-released: "2026-10-25"
-url: "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0"
+url: "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.1.0"
 authors:
   - family-names: "Clim"
     given-names: "Antonio"
     orcid: "https://orcid.org/0000-0003-4745-0431"
     affiliation: "Bucharest University of Economic Studies, Bucharest, Romania"
 repository-code: "https://github.com/antonioclim/sparse-interval-certificates"
-doi: "10.5281/zenodo.23633155"
-abstract: "Exact certificate producers and separate checkers for finite rational affine biobjective catalogues, continuous sparse conversion and regularity diagnostics, with source data and retained computational studies. Original code is BSD-3-Clause; original documentation, figures and data are CC BY 4.0. Third-party materials retain their stated licences. Distribution version 1.0.0 is distinct from runtime baseline 0.1.0-dev.10."
+doi: "10.5281/zenodo.23649107"
+abstract: "Exact sparse interval certificate producers and separate checkers, continuous conversion, regularity diagnostics and reproducibility materials. Distribution 1.1.0 adds validated-envelope, synthesis and implicit-DAG modules plus a source-reconstruction route for RouterBench. Original code is BSD-3-Clause; original non-code material is CC BY 4.0. Third-party rights remain component-specific."
 keywords:
   - "biobjective optimisation"
   - "weighted-sum scalarisation"

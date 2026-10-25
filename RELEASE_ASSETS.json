@@ -1,28 +1,37 @@
 {
-  "schema": "NCS_PUBLIC_RELEASE_ASSETS_V1",
-  "version": "1.0.0",
-  "runtime_baseline": "0.1.0-dev.10",
-  "source_distribution_revision": "F8",
-  "publication_state": "PUBLISHED_GITHUB_AND_ZENODO_VERIFIED",
-  "payload_state": "FINAL_ASSET_IDENTITIES_SUPPLIED",
-  "manuscript_title": "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates",
+  "schema": "NCS_PUBLIC_RELEASE_ASSETS_V2",
+  "version": "1.1.0",
+  "release_tag": "v1.1.0",
+  "distribution_date": "2026-10-25",
   "repository_url": "https://github.com/antonioclim/sparse-interval-certificates",
-  "release_url": "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0",
-  "zenodo_version_doi": "10.5281/zenodo.23633155",
-  "release_tag": "v1.0.0",
-  "repository_state": "VERIFIED_PUBLIC",
-  "release_state": "PUBLISHED_AND_VERIFIED",
-  "zenodo_state": "PUBLISHED_AND_VERIFIED",
+  "release_url": "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.1.0",
+  "zenodo_version_doi": "10.5281/zenodo.23649107",
+  "zenodo_record_url": "https://zenodo.org/records/23649107",
+  "previous_version_doi": "10.5281/zenodo.23633155",
+  "runtime_baseline": "0.1.0-dev.10",
+  "verification_scope": "Local file integrity and documented scientific checks; publication status is established by the public service records",
   "github_actions": {
     "workflow_files_included": false,
-    "repository_setting": "USER_REPORTED_DISABLED_NOT_INDEPENDENTLY_VERIFIED",
-    "recorded_workflow_runs": 0,
-    "recorded_run_count_does_not_verify_setting": true
+    "execution_required": false,
+    "administrative_setting": "Owner reported disabled; not independently certified here"
   },
-  "publication_date": "2026-10-25",
-  "date_state": "ACTUAL_GITHUB_AND_ZENODO_PUBLICATION_DATES_VERIFIED",
-  "automatic_GitHub_source_archives": "Distribution index only; complete research sources are in the five named release assets",
+  "automatic_GitHub_source_archives": "Distribution index only; use the seven named scientific assets",
   "files": [
+    {
+      "filename": "Current_Reproducibility_Data.zip",
+      "bytes": 11836445,
+      "sha256": "e0b2d4028b483f08501aa80df3672e08a4fe74e1d7daeeccacd3ac1dc29e2002"
+    },
+    {
+      "filename": "Figures_editable.zip",
+      "bytes": 8846643,
+      "sha256": "a7c87caef1380e982ee201780b89001da7249a3022ab10f9e07dfe5d0657e968"
+    },
+    {
+      "filename": "Source_Data.zip",
+      "bytes": 481849,
+      "sha256": "a2ebefcc944a9fb0ae0eacaee299fbcd721de690719d11736d26222cb2185a50"
+    },
     {
       "filename": "Supplementary_Software_1.zip",
       "bytes": 1981768,
@@ -39,30 +48,9 @@
       "sha256": "ad2f475d3d5ca157d82b71cc0f98bab2b261c10f7a813622a14f8f1a92578774"
     },
     {
-      "filename": "Source_Data.zip",
-      "bytes": 481849,
-      "sha256": "a2ebefcc944a9fb0ae0eacaee299fbcd721de690719d11736d26222cb2185a50"
-    },
-    {
-      "filename": "Figures_editable.zip",
-      "bytes": 8846643,
-      "sha256": "a7c87caef1380e982ee201780b89001da7249a3022ab10f9e07dfe5d0657e968"
+      "filename": "Supplementary_Software_4.zip",
+      "bytes": 6139828,
+      "sha256": "9617accb07ae3d7d862c5f6ab06ce7512c99a87fe07d4d916695cc83e0d0ca21"
     }
-  ],
-  "publication_date_scope": "Both GitHub release and Zenodo version record were published on this date",
-  "public_asset_verification": {
-    "status": "PASS",
-    "scope": "All five common GitHub/Zenodo assets have identical verified bytes; all eight Zenodo files were downloaded anonymously and their hashes checked"
-  },
-  "github_release_id": 423159082,
-  "github_release_published_at": "2026-10-25T05:05:28Z",
-  "github_release_commit": "ff2a3a1ddc2d8aba40307a23fba06bce96ee34f3",
-  "github_tag_moved_by_status_update": false,
-  "release_assets_replaced_by_status_update": false,
-  "zenodo_publication_verified": true,
-  "zenodo_record_url": "https://zenodo.org/records/23633155",
-  "zenodo_concept_doi": "10.5281/zenodo.23633154",
-  "citation_uses": "VERSION_DOI_FOR_1_0_0",
-  "zenodo_published_at": "2026-10-25T05:24:28.119263+00:00",
-  "public_access_and_byte_verification": "PASS_GITHUB_5_AND_ZENODO_8_ANONYMOUS_DOWNLOADS"
+  ]
 }
