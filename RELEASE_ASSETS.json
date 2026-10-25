@@ -1,0 +1,50 @@
+{
+  "schema": "NCS_PUBLIC_RELEASE_ASSETS_V1",
+  "version": "1.0.0",
+  "runtime_baseline": "0.1.0-dev.10",
+  "source_distribution_revision": "F8",
+  "publication_state": "PREPARED_FOR_AUTHORISED_PUBLICATION",
+  "payload_state": "FINAL_ASSET_IDENTITIES_SUPPLIED",
+  "manuscript_title": "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates",
+  "repository_url": "https://github.com/antonioclim/sparse-interval-certificates",
+  "release_url": "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0",
+  "zenodo_version_doi": "10.5281/zenodo.23633155",
+  "release_tag": "v1.0.0",
+  "repository_state": "VERIFIED_EXISTS_PRIVATE",
+  "release_state": "PLANNED_NOT_CREATED",
+  "zenodo_state": "RESERVED_DOI_DRAFT_NOT_PUBLISHED",
+  "github_actions": {
+    "workflow_files_included": false,
+    "repository_setting": "USER_REPORTED_DISABLED_NOT_INDEPENDENTLY_VERIFIED"
+  },
+  "publication_date": null,
+  "date_state": "PENDING_PUBLICATION_VERIFICATION",
+  "automatic_GitHub_source_archives": "Distribution index only; complete research sources are in the five named release assets",
+  "files": [
+    {
+      "filename": "Supplementary_Software_1.zip",
+      "bytes": 1981768,
+      "sha256": "c757972fb03a07b5caca18495053883c23923855166f721b12ff659e21f086d8"
+    },
+    {
+      "filename": "Supplementary_Software_2.zip",
+      "bytes": 5699461,
+      "sha256": "824fc2a9cac421393eca376b753b7340d7be9fb6d093af1ef1e6c8943be3827c"
+    },
+    {
+      "filename": "Supplementary_Software_3.zip",
+      "bytes": 12183234,
+      "sha256": "ad2f475d3d5ca157d82b71cc0f98bab2b261c10f7a813622a14f8f1a92578774"
+    },
+    {
+      "filename": "Source_Data.zip",
+      "bytes": 481849,
+      "sha256": "a2ebefcc944a9fb0ae0eacaee299fbcd721de690719d11736d26222cb2185a50"
+    },
+    {
+      "filename": "Figures_editable.zip",
+      "bytes": 8846643,
+      "sha256": "a7c87caef1380e982ee201780b89001da7249a3022ab10f9e07dfe5d0657e968"
+    }
+  ]
+}

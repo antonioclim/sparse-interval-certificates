@@ -1,0 +1,43 @@
+{
+  "schema": "NCS_PUBLIC_SOFTWARE_MANUSCRIPT_METADATA_V1",
+  "manuscript_title": "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates",
+  "manuscript_abstract": "Certifying a reference outcome's exclusion from every weighted-sum optimum at every point of a parameter interval requires evidence between sampled points. For explicitly listed rational affine biobjective families with m competing alternatives, we prove that interval-wide unsupportedness admits certificates with at most 3m+72 rational closed cells, each using at most two alternatives and affine-over-affine weights. Every accepted support-two certificate with K cells converts into a globally continuous support-three certificate with at most 3K-2 cells, preserving the weight form and controlling rational coefficient height with linear additional rational work. Examples establish that support three and linearly many cells can be necessary. False instances admit algebraic obstructions of degree at most two, including an isolated failure missed by every rational sample. Exact producers and separate checkers make the certificates executable. A classifier catalogue illustrates exact certification on empirical loss tables.",
+  "abstract_words": 138,
+  "language": "en-GB",
+  "author": {
+    "given_name": "Antonio",
+    "family_name": "Clim",
+    "orcid": "0000-0003-4745-0431"
+  },
+  "manuscript_revision": "F8_NCS_INITIAL_SUBMISSION_COMPLIANCE",
+  "metadata_prepared_date": "2026-10-24",
+  "article_doi": null,
+  "publication_state": "ACCOMPANYING_MANUSCRIPT_NOT_SUBMITTED_BY_THIS_OPERATION",
+  "relationship": "Accompanying manuscript; this metadata does not turn software into a published article",
+  "keywords": [
+    "biobjective optimisation",
+    "weighted-sum scalarisation",
+    "sparse certificates",
+    "quantitative continuity",
+    "exact arithmetic",
+    "certificate verification",
+    "reproducible computational research"
+  ],
+  "scientific_revision": "P10",
+  "software_assembly_version": "0.1.0-dev.10",
+  "distribution_revision": "PUBLIC_RELEASE_1.0.0",
+  "article_publication_model": "Traditional subscription publishing model",
+  "publication_model_source": "Explicit author choice on 2026-10-24",
+  "software_publication_state": "PREPARED_FOR_AUTHORISED_PUBLICATION",
+  "public_distribution_version": "1.0.0",
+  "runtime_baseline": "0.1.0-dev.10",
+  "repository_url": "https://github.com/antonioclim/sparse-interval-certificates",
+  "release_url": "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0",
+  "zenodo_version_doi": "10.5281/zenodo.23633155",
+  "public_release_date": null,
+  "licence_grant_status": "EXPLICITLY_GRANTED_BY_AUTHOR",
+  "review_mode": "standard_identified",
+  "repository_state": "VERIFIED_EXISTS_PRIVATE",
+  "release_state": "PLANNED_NOT_CREATED",
+  "zenodo_state": "RESERVED_DOI_DRAFT_NOT_PUBLISHED"
+}
