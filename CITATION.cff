@@ -1,8 +1,10 @@
 cff-version: 1.2.0
 type: software
-message: "Cite this research-software distribution using its Zenodo version DOI after publication. Before publication the DOI is reserved in a draft and may not resolve. Distribution 1.0.0 preserves runtime baseline 0.1.0-dev.10."
+message: "GitHub release 1.0.0 was published on 25 October 2026. Cite that release while the accompanying Zenodo version DOI is reserved in an unpublished draft; use the Zenodo version DOI after its record is published. Runtime baseline 0.1.0-dev.10 is preserved."
 title: "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates — reproducibility software"
 version: "1.0.0"
+date-released: "2026-10-25"
+url: "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0"
 authors:
   - family-names: "Clim"
     given-names: "Antonio"

@@ -2,13 +2,13 @@
 
 Research software and reproducibility materials accompanying **What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates**, by Antonio Clim.
 
-Prepared distribution **1.0.0**, intended tag **v1.0.0**. Preserved runtime baseline: **0.1.0-dev.10**. Historical generating sources and measurements retain their actual versions and provenance.
+Public GitHub distribution **1.0.0**, tag **v1.0.0**. Preserved runtime baseline: **0.1.0-dev.10**. Historical generating sources and measurements retain their actual versions and provenance.
 
-Prepared for authorised publication. Online publication and public access have not yet been verified.
+GitHub release v1.0.0 was published on 25 October 2026. Its five named assets have been verified against the sizes and SHA-256 identities below. The accompanying Zenodo DOI is still reserved in an unpublished draft; public Zenodo access is pending.
 
-Existing repository (verified private): https://github.com/antonioclim/sparse-interval-certificates
+Repository: https://github.com/antonioclim/sparse-interval-certificates
 
-Planned GitHub release (not yet created): https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0
+Published GitHub release: https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0
 
 Reserved Zenodo version DOI (draft, not published; may not resolve yet): https://doi.org/10.5281/zenodo.23633155
 
@@ -22,7 +22,7 @@ Reserved Zenodo version DOI (draft, not published; may not resolve yet): https:/
 
 This GitHub tree is a six-file distribution index. GitHub's automatic Source code ZIP/tar.gz archives contain the index; the complete scientific sources are in the five named release assets. RELEASE_ASSETS.json and SHA256SUMS.txt bind those assets to their file identities.
 
-Current_Reproducibility_Data.zip is included in the prepared Zenodo package; an online Zenodo record has not yet been verified as published. It contains selected current observations, proof objects, protocols and source dependencies supporting the reported comparisons. It is not the complete private development history.
+Current_Reproducibility_Data.zip has been uploaded to the accompanying Zenodo draft. Its public availability remains pending until that draft is published. It contains selected current observations, proof objects, protocols and source dependencies supporting the reported comparisons. It is not the complete private development history.
 
 ## Scope and limitations
 
@@ -32,7 +32,7 @@ The main results concern certificate representation and conversion. The geometri
 
 Original code: BSD-3-Clause. Original documentation, figures and data, including derived tables: CC BY 4.0. Third-party materials retain their component-specific licences and attribution; see RIGHTS_STATUS.md and the operative notices inside each ZIP.
 
-No GitHub Actions workflow is included or needed. The owner reports that Actions is disabled for the repository; this account setting has not been independently inspected by this preparation. The absence of workflow files and the repository setting are separate checks.
+No GitHub Actions workflow is included or needed. The owner reports that Actions is disabled for the repository. After release, the Actions runs API reported zero recorded runs; this does not independently establish the repository setting. Workflow-file absence, run history and the account setting are separate checks.
 
 ## Use of AI-assisted technologies
 

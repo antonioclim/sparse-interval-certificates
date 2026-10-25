@@ -3,22 +3,24 @@
   "version": "1.0.0",
   "runtime_baseline": "0.1.0-dev.10",
   "source_distribution_revision": "F8",
-  "publication_state": "PREPARED_FOR_AUTHORISED_PUBLICATION",
+  "publication_state": "GITHUB_PUBLIC_ZENODO_DRAFT",
   "payload_state": "FINAL_ASSET_IDENTITIES_SUPPLIED",
   "manuscript_title": "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates",
   "repository_url": "https://github.com/antonioclim/sparse-interval-certificates",
   "release_url": "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0",
   "zenodo_version_doi": "10.5281/zenodo.23633155",
   "release_tag": "v1.0.0",
-  "repository_state": "VERIFIED_EXISTS_PRIVATE",
-  "release_state": "PLANNED_NOT_CREATED",
+  "repository_state": "VERIFIED_PUBLIC",
+  "release_state": "PUBLISHED_AND_VERIFIED",
   "zenodo_state": "RESERVED_DOI_DRAFT_NOT_PUBLISHED",
   "github_actions": {
     "workflow_files_included": false,
-    "repository_setting": "USER_REPORTED_DISABLED_NOT_INDEPENDENTLY_VERIFIED"
+    "repository_setting": "USER_REPORTED_DISABLED_NOT_INDEPENDENTLY_VERIFIED",
+    "recorded_workflow_runs": 0,
+    "recorded_run_count_does_not_verify_setting": true
   },
-  "publication_date": null,
-  "date_state": "PENDING_PUBLICATION_VERIFICATION",
+  "publication_date": "2026-10-25",
+  "date_state": "ACTUAL_GITHUB_RELEASE_DATE_VERIFIED_ZENODO_UNPUBLISHED",
   "automatic_GitHub_source_archives": "Distribution index only; complete research sources are in the five named release assets",
   "files": [
     {
@@ -46,5 +48,17 @@
       "bytes": 8846643,
       "sha256": "a7c87caef1380e982ee201780b89001da7249a3022ab10f9e07dfe5d0657e968"
     }
-  ]
+  ],
+  "publication_date_scope": "GitHub release only",
+  "public_asset_verification": {
+    "status": "PASS",
+    "scope": "All five named release assets match the local manifest sizes and SHA-256 values",
+    "verification_source": "Parent agent verification of the public GitHub release API and local files"
+  },
+  "github_release_id": 423159082,
+  "github_release_published_at": "2026-10-25T05:05:28Z",
+  "github_release_commit": "ff2a3a1ddc2d8aba40307a23fba06bce96ee34f3",
+  "github_tag_moved_by_status_update": false,
+  "release_assets_replaced_by_status_update": false,
+  "zenodo_publication_verified": false
 }
