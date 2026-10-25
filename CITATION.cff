@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 type: software
-message: "GitHub release 1.0.0 was published on 25 October 2026. Cite that release while the accompanying Zenodo version DOI is reserved in an unpublished draft; use the Zenodo version DOI after its record is published. Runtime baseline 0.1.0-dev.10 is preserved."
+message: "Cite research-software distribution 1.0.0 using its Zenodo version DOI, 10.5281/zenodo.23633155. The preserved runtime baseline is 0.1.0-dev.10; historical generating source versions retain their actual identities."
 title: "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates — reproducibility software"
 version: "1.0.0"
 date-released: "2026-10-25"

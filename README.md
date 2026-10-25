@@ -2,15 +2,15 @@
 
 Research software and reproducibility materials accompanying **What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates**, by Antonio Clim.
 
-Public GitHub distribution **1.0.0**, tag **v1.0.0**. Preserved runtime baseline: **0.1.0-dev.10**. Historical generating sources and measurements retain their actual versions and provenance.
+Public distribution **1.0.0**, tag **v1.0.0**. Preserved runtime baseline: **0.1.0-dev.10**. Historical generating sources and measurements retain their actual versions and provenance.
 
-GitHub release v1.0.0 was published on 25 October 2026. Its five named assets have been verified against the sizes and SHA-256 identities below. The accompanying Zenodo DOI is still reserved in an unpublished draft; public Zenodo access is pending.
+GitHub release v1.0.0 and the accompanying Zenodo 1.0.0 record were published on 25 October 2026. The five GitHub assets and all eight Zenodo files were downloaded without authentication and verified against their recorded byte identities. The version DOI resolves to the public Zenodo record.
 
 Repository: https://github.com/antonioclim/sparse-interval-certificates
 
 Published GitHub release: https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.0.0
 
-Reserved Zenodo version DOI (draft, not published; may not resolve yet): https://doi.org/10.5281/zenodo.23633155
+Zenodo version DOI: https://doi.org/10.5281/zenodo.23633155
 
 ## Named release assets
 
@@ -22,7 +22,7 @@ Reserved Zenodo version DOI (draft, not published; may not resolve yet): https:/
 
 This GitHub tree is a six-file distribution index. GitHub's automatic Source code ZIP/tar.gz archives contain the index; the complete scientific sources are in the five named release assets. RELEASE_ASSETS.json and SHA256SUMS.txt bind those assets to their file identities.
 
-Current_Reproducibility_Data.zip has been uploaded to the accompanying Zenodo draft. Its public availability remains pending until that draft is published. It contains selected current observations, proof objects, protocols and source dependencies supporting the reported comparisons. It is not the complete private development history.
+Current_Reproducibility_Data.zip is publicly available in the accompanying Zenodo 1.0.0 record. The Zenodo record contains the same five release assets and the selected current reproducibility archive, together with its README and checksum file. It contains selected current observations, proof objects, protocols and source dependencies supporting the reported comparisons. It is not the complete private development history.
 
 ## Scope and limitations
 

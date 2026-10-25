@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "runtime_baseline": "0.1.0-dev.10",
   "source_distribution_revision": "F8",
-  "publication_state": "GITHUB_PUBLIC_ZENODO_DRAFT",
+  "publication_state": "PUBLISHED_GITHUB_AND_ZENODO_VERIFIED",
   "payload_state": "FINAL_ASSET_IDENTITIES_SUPPLIED",
   "manuscript_title": "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates",
   "repository_url": "https://github.com/antonioclim/sparse-interval-certificates",
@@ -12,7 +12,7 @@
   "release_tag": "v1.0.0",
   "repository_state": "VERIFIED_PUBLIC",
   "release_state": "PUBLISHED_AND_VERIFIED",
-  "zenodo_state": "RESERVED_DOI_DRAFT_NOT_PUBLISHED",
+  "zenodo_state": "PUBLISHED_AND_VERIFIED",
   "github_actions": {
     "workflow_files_included": false,
     "repository_setting": "USER_REPORTED_DISABLED_NOT_INDEPENDENTLY_VERIFIED",
@@ -20,7 +20,7 @@
     "recorded_run_count_does_not_verify_setting": true
   },
   "publication_date": "2026-10-25",
-  "date_state": "ACTUAL_GITHUB_RELEASE_DATE_VERIFIED_ZENODO_UNPUBLISHED",
+  "date_state": "ACTUAL_GITHUB_AND_ZENODO_PUBLICATION_DATES_VERIFIED",
   "automatic_GitHub_source_archives": "Distribution index only; complete research sources are in the five named release assets",
   "files": [
     {
@@ -49,16 +49,20 @@
       "sha256": "a7c87caef1380e982ee201780b89001da7249a3022ab10f9e07dfe5d0657e968"
     }
   ],
-  "publication_date_scope": "GitHub release only",
+  "publication_date_scope": "Both GitHub release and Zenodo version record were published on this date",
   "public_asset_verification": {
     "status": "PASS",
-    "scope": "All five named release assets match the local manifest sizes and SHA-256 values",
-    "verification_source": "Parent agent verification of the public GitHub release API and local files"
+    "scope": "All five common GitHub/Zenodo assets have identical verified bytes; all eight Zenodo files were downloaded anonymously and their hashes checked"
   },
   "github_release_id": 423159082,
   "github_release_published_at": "2026-10-25T05:05:28Z",
   "github_release_commit": "ff2a3a1ddc2d8aba40307a23fba06bce96ee34f3",
   "github_tag_moved_by_status_update": false,
   "release_assets_replaced_by_status_update": false,
-  "zenodo_publication_verified": false
+  "zenodo_publication_verified": true,
+  "zenodo_record_url": "https://zenodo.org/records/23633155",
+  "zenodo_concept_doi": "10.5281/zenodo.23633154",
+  "citation_uses": "VERSION_DOI_FOR_1_0_0",
+  "zenodo_published_at": "2026-10-25T05:24:28.119263+00:00",
+  "public_access_and_byte_verification": "PASS_GITHUB_5_AND_ZENODO_8_ANONYMOUS_DOWNLOADS"
 }
