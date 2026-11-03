@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>f</mi><mrow><mi>k</mi><mi>j</mi></mrow></msub><mrow><mo stretchy="true" form="prefix">(</mo><mi>t</mi><mo stretchy="true" form="postfix">)</mo></mrow><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><mn>1</mn><mo>−</mo><mi>t</mi><mo stretchy="true" form="postfix">)</mo></mrow><msub><mi>L</mi><mrow><mi>k</mi><mn>0</mn><mi>j</mi></mrow></msub><mo>+</mo><mi>t</mi><msub><mi>L</mi><mrow><mi>k</mi><mn>1</mn><mi>j</mi></mrow></msub><mo>,</mo><mspace width="2.0em"></mspace><mi>k</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mi>.</mi></mrow><annotation encoding="application/x-tex">
+f_{kj}(t)=(1-t)L_{k0j}+tL_{k1j},\qquad k=1,2.
+</annotation></semantics></math>

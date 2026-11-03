@@ -1,0 +1,14 @@
+Separate-code check,Final result
+Geometry in original and reversed row orders,194 agreements
+LP in two randomisation modes and three seeds,666 agreements
+Sparse duals and altered dual values,105 accepted identities and 105 rejections
+Infeasible cores and altered Farkas objects,6 accepted identities and 24 rejections
+Global RN with exact clipping,49 oracle agreements and 95 malformed-proof rejections
+Global RN with optional proposals,The same 49 agreements and 95 rejections
+Deliberately malformed geometric proposals,14 direct rejections and 14 correct fallbacks
+Missing optional dependency,2 correct fallbacks
+Resource or interruption exceptions,3 propagated without a mathematical verdict
+Targeted LP hint scenarios,14 successful checks across both modes
+Invalid LP arguments or core metadata,14 rejections
+Paired versus single shifted construction,10 identical-object comparison pairs
+Explicit interior construction,18 exact confirmations

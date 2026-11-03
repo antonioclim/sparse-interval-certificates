@@ -1,0 +1,9 @@
+Bank,Executed count,Result
+Separate geometry oracle,97 fixtures in two row orders,194 comparisons passed
+Separate LP oracle,111 fixtures in three seeded orders,333 comparisons passed
+Separate dual checks,105 identities and 105 mutations,All identities accepted and mutations rejected
+Separate Farkas checks,Six identities and 24 mutations,All identities accepted and mutations rejected
+Global producer vs RN oracle,"49 instances, 23 true and 26 false",All classifications agreed; 95 malformed objects rejected
+Owner geometry,290 synthetic oracle comparisons,Passed; four input-type controls rejected
+Owner LP,"126 fixtures, three seeds",378 comparisons passed; 376 malformed controls rejected
+Owner integrated producer,18 mode-and-fixture executions,Passed; all 26 observed R1 calls used at most four columns

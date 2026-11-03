@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="RADAR D3 offline documentation"><title>Reproduction environments and route boundaries</title><style>html{font-size:16px;color:#161616;background:#fff}body{max-width:72rem;margin:0 auto;padding:1.5rem 2rem 4rem;font-family:Georgia,"Times New Roman",serif;line-height:1.55}main{min-width:0}h1,h2,h3,h4{color:#111;line-height:1.25;break-after:avoid}h1{font-size:2rem;margin:1rem 0 1.2rem}h2{font-size:1.45rem;margin-top:2rem}h3{font-size:1.15rem;margin-top:1.6rem}p,ul,ol{margin:0.85rem 0}a{color:#064f83;text-underline-offset:0.14em}a:focus{outline:2px solid #064f83;outline-offset:3px}nav{font:0.9rem/1.5 system-ui,sans-serif;margin-bottom:1.4rem;display:flex;flex-wrap:wrap;gap:0.4rem 1.2rem}nav a{white-space:nowrap}pre{padding:0.9rem;background:#f4f5f6;border:1px solid #ddd;overflow:auto;line-height:1.4}code{font-family:ui-monospace,Consolas,monospace;font-size:0.88em}p code,li code,td code{overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow-x:auto;font-size:0.91rem;margin:1.2rem 0;font-variant-numeric:tabular-nums}th,td{padding:0.55rem 0.7rem;border:1px solid #ccc;vertical-align:top}th{background:#e9edf0;text-align:left}tbody tr:nth-child(even){background:#fafafa}img,svg{max-width:100%;height:auto}.typeset-math img.math-svg{vertical-align:middle}.typeset-math.display-math{display:block;text-align:center;max-width:100%;overflow-x:auto;margin:1rem 0}.typeset-math.inline-math{white-space:nowrap}.typeset-math [hidden]{display:none!important}math{font-size:1.05em}math[display="block"]{display:block;max-width:100%;overflow-x:auto;margin:1rem 0}blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid #bbb}footer{font:0.82rem/1.5 system-ui,sans-serif;margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd}.table-container{overflow-x:auto}@media(max-width:650px){body{padding:1rem;font-size:1rem}h1{font-size:1.65rem}table{font-size:0.85rem}}@media print{body{max-width:none;padding:0;font-size:10.5pt}nav{display:none}pre{white-space:pre-wrap;overflow-wrap:anywhere}table{display:table;width:100%;font-size:8.7pt}th,td{padding:0.35em 0.5em}thead{display:table-header-group}tr{break-inside:avoid}math[display="block"]{overflow:visible}a{color:inherit}footer{font-size:8pt}}</style></head><body><nav aria-label="Documentation navigation"><a href="../index.html">Documentation index</a> · <a href="../../reproduction/environment-and-routes.md">Canonical Markdown</a> · <a href="../distribution/scope-and-assets.html#companion-identity">Companion identity</a></nav><main><h1 id="reproduction-environments-and-route-boundaries">Reproduction environments and route boundaries</h1>
+<p><a id="reading-and-replay"></a></p>
+<h2 id="read-first-and-execute-only-the-intended-route">Read first and execute only the intended route</h2>
+<p>The Markdown files are the canonical technical text. The <code>html/index.html</code> entry point is a generated offline rendition of the same documentation. Mathematical expressions are locally typeset SVG with exact LaTeX labels and retained MathML XML sidecars. Tables and mathematical expressions can be read without installing or running the scientific software. Relative links work after extracting the complete documentation tree.</p>
+<p>The current private submission-kit driver is <code>01_Submission/05_Reproduction_Verification/RUN_CURRENT_REPRODUCTION_D3.py</code>; its current author source closure is <code>01_Submission/03_Author_Sources/Current_D3</code>. From the extracted kit root, choose a fresh output directory outside the source tree:</p>
+<pre class="text"><code>python 01_Submission/05_Reproduction_Verification/RUN_CURRENT_REPRODUCTION_D3.py --package . --output &quot;../rebuilt current D3 documents&quot;</code></pre>
+<p>The GitHub and Zenodo scientific companion uses the same relative command from its <code>current_editorial_candidate</code> root, with a separate public source profile. The private author profile must not be copied into that public companion.</p>
+<p>From the extracted Online Resource 10 root, use its public source closure and entry point:</p>
+<pre class="text"><code>python Reproduction_Verification/RUN_CURRENT_REPRODUCTION_D3.py --output &quot;../rebuilt public D3 documents&quot;</code></pre>
+<p>That public route can additionally bind the supplied references with <code>--documents CURRENT_REFERENCE_ROOT</code>. Read the component README for its exact profile and optional figure-reference arguments.</p>
+<p>Earlier B3, B4, C1, D1 and D2Audit routes retain their original fixed input/output guards. They remain upstream or historical stages and must not be repinned to make a different document revision pass. Actual replay results are reported in the supplied current assembly receipts; the command above does not claim a new experiment or an execution on the reader's machine.</p>
+<p><a id="scientific-environments"></a></p>
+<h2 id="distinct-environment-requirements">Distinct environment requirements</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Task</th>
+<th>Recorded requirements or boundary</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Read the documentation</td>
+<td>Markdown viewer, or a browser displaying local SVG images for the generated HTML; no network-dependent mathematical renderer</td>
+</tr>
+<tr class="even">
+<td>Check complete kit inventory</td>
+<td>Python standard library; use the current kit's <code>VERIFY_KIT.py</code> instructions</td>
+</tr>
+<tr class="odd">
+<td>Reconstruct current native documents</td>
+<td>Python and <code>lxml</code>; follow the current assembly entry point and its source closure</td>
+</tr>
+<tr class="even">
+<td>Generate the current native figures</td>
+<td>Python, NumPy, Matplotlib and lxml, with the supplied fonts and inputs</td>
+</tr>
+<tr class="odd">
+<td>Export and compare figure PDF/PNG</td>
+<td>Additional LibreOffice Draw, Poppler and PyMuPDF tools as listed in the kit dependency matrix</td>
+</tr>
+<tr class="even">
+<td>Rebuild offline documentation HTML</td>
+<td>Python standard library and Pandoc 3.1.3, plus installed pdfLaTeX/AMS/standalone and Poppler for mathematical SVG output; tool versions are recorded in the build receipt</td>
+</tr>
+<tr class="odd">
+<td>Replay archived scientific components</td>
+<td>Follow the component's unchanged instructions and its own environment; the document environment is not a substitute</td>
+</tr>
+</tbody>
+</table>
+<p>The captured package versions in the kit describe the executed Linux host, rather than a complete installer lock or a test on every supported platform. The previous full document/figure environment recorded Python 3.12.14, NumPy 2.3.5, Matplotlib 3.10.8, lxml 6.1.1, Pillow 12.3.0, pypdf 6.10.0 and PyMuPDF 1.26.6. The fixed package baseline is Python 3.11 or later; the recorded execution does not establish a separate Python 3.11 test.</p>
+<p>The speculative numerical proposal route and classifier fitting have their own additional dependencies, recorded in their preserved components. A standard-library proof-checking route does not imply that numerical proposal generation or model fitting is dependency-free.</p>
+<p><a id="new-output-and-guards"></a></p>
+<h2 id="output-directories-and-integrity-guards">Output directories and integrity guards</h2>
+<p>Use a new output destination. Retain the source archive and its complete closure before replay. Current checkers distinguish a wrong or malformed input, an unverified object, resource failure and <code>UNKNOWN</code> from a mathematical negative verdict. Closed inventories reject changed or additional source files where their contract requires a fixed source set.</p>
+<p>No documentation build installs dependencies, contacts the network, runs GitHub Actions or submits a manuscript. The optional reconstruction routes remain separate from the author's submission workflow.</p>
+<p><a id="limits"></a></p>
+<h2 id="what-a-successful-local-replay-establishes">What a successful local replay establishes</h2>
+<p>Byte-identical native output verifies that the specified source route reconstructed the recorded document or proof object. A PDF hash binds a supplied reference file; it does not itself inspect its layout. Figure appearance comparisons concern the specified renderer and inputs. Replaying a stored proof does not reproduce historical wall-clock measurements, independently establish a theorem or constitute external human replication.</p>
+<p>Native Microsoft Word on Windows and external human replication remain outside the recorded local checks. The theoretical deterministic near-linear geometric construction remains distinct from the supplied quadratic clipping implementation. Restricted-source reconstruction remains separate from the packaged-subset mode.</p>
+</main><footer>Antonio Clim · Journal of Global Optimization preparation · D3 technical companion · Prepared for distribution 1.2.0 · Version DOI 10.5281/zenodo.23921914 reserved at build; service publication status is verified separately. Generated from canonical Markdown.</footer></body></html>

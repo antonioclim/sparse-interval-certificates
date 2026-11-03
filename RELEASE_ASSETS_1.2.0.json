@@ -1,0 +1,140 @@
+{
+  "schema": "RADAR_FROZEN_DISTRIBUTION_1_2_0_D3_V1",
+  "version": "1.2.0",
+  "title": "Sparse interval certificates for parametric biobjective optimisation — technical documentation and scientific companion",
+  "GitHub_tag": "v1.2.0",
+  "version_DOI": "10.5281/zenodo.23921914",
+  "Zenodo_record_url": "https://zenodo.org/records/23921914",
+  "state_at_build": "prepared_for_publication",
+  "DOI_state_at_build": "reserved_in_author_supplied_Zenodo_draft",
+  "publication_state_verification": "Separate service receipt after author browser publication",
+  "publication_performed_by_this_build": false,
+  "unchanged_scientific_archives": [
+    "Current_Reproducibility_Data.zip",
+    "Figures_editable.zip",
+    "Source_Data.zip",
+    "Supplementary_Software_1.zip",
+    "Supplementary_Software_2.zip",
+    "Supplementary_Software_3.zip",
+    "Supplementary_Software_4.zip"
+  ],
+  "checksum_scope": "Named files in the release/deposit asset directory, not renamed repository metadata aliases",
+  "total_asset_count": 17,
+  "all_asset_names": [
+    "CITATION.cff",
+    "Current_Reproducibility_Data.zip",
+    "Figures_editable.zip",
+    "LICENSE-BSD-3-Clause.txt",
+    "LICENSE-CC-BY-4.0.txt",
+    "RADAR_JGO_Scientific_Companion_1.2.0.zip",
+    "RADAR_Technical_Documentation_1.2.0.zip",
+    "README_RELEASE_1.2.0.md",
+    "RELEASE_ASSETS_1.2.0.json",
+    "RIGHTS_STATUS_1.2.0.md",
+    "Reproduction_Compatibility_1_1_0.zip",
+    "SHA256SUMS_1.2.0.txt",
+    "Source_Data.zip",
+    "Supplementary_Software_1.zip",
+    "Supplementary_Software_2.zip",
+    "Supplementary_Software_3.zip",
+    "Supplementary_Software_4.zip"
+  ],
+  "payload_files_hashed_here": 15,
+  "excluded_from_this_hash_list": [
+    "RELEASE_ASSETS_1.2.0.json",
+    "SHA256SUMS_1.2.0.txt"
+  ],
+  "SHA256SUMS_scope": "All other16 named files including this JSON; the SHA256SUMS file excludes itself",
+  "files": [
+    {
+      "filename": "CITATION.cff",
+      "bytes": 1190,
+      "sha256": "a5791f9113939f211635ae683767b598edb612a4b577f47a8e96fdaf32321381",
+      "md5": "be5509cd0b151f67bc891aa49f1264e7"
+    },
+    {
+      "filename": "Current_Reproducibility_Data.zip",
+      "bytes": 11836445,
+      "sha256": "e0b2d4028b483f08501aa80df3672e08a4fe74e1d7daeeccacd3ac1dc29e2002",
+      "md5": "463715a43e82b83d60e1d91de711b264"
+    },
+    {
+      "filename": "Figures_editable.zip",
+      "bytes": 8846643,
+      "sha256": "a7c87caef1380e982ee201780b89001da7249a3022ab10f9e07dfe5d0657e968",
+      "md5": "40503d0a77cd2beccc218bf67415ddb8"
+    },
+    {
+      "filename": "LICENSE-BSD-3-Clause.txt",
+      "bytes": 1520,
+      "sha256": "4a2e763e775db839f49faaa9f9e712e4a49c43ed8d34e115f6f901509a4618c6",
+      "md5": "5692c2a111edeb4d864d5bb14e09e07b"
+    },
+    {
+      "filename": "LICENSE-CC-BY-4.0.txt",
+      "bytes": 735,
+      "sha256": "d7c735fc9014cba61eee9a7f550fd5e367195702b0c85885a772ea2e7c79334c",
+      "md5": "e31224804875e6687c8216ae16cd6da6"
+    },
+    {
+      "filename": "RADAR_JGO_Scientific_Companion_1.2.0.zip",
+      "bytes": 87241000,
+      "sha256": "35b7125ef5e31c7570e09f5e9e341d95fbb362cdb2beae06dc8425b2747bcb98",
+      "md5": "67da1e294166bd31ddbea66a3d083527"
+    },
+    {
+      "filename": "RADAR_Technical_Documentation_1.2.0.zip",
+      "bytes": 192653,
+      "sha256": "5121c089d3af5cc66d56cb8df14043e45134fe66d865d4d3d311ef232bd46145",
+      "md5": "6e9e9dd5ad86372163d48fe8da9ceb4b"
+    },
+    {
+      "filename": "README_RELEASE_1.2.0.md",
+      "bytes": 3027,
+      "sha256": "2f68653ce1ec035f4a8aeca6974a3dbee49266989d1a81dcdd6dcabf641f7a4c",
+      "md5": "b3e04b107275b00f87d6817f88b7978b"
+    },
+    {
+      "filename": "RIGHTS_STATUS_1.2.0.md",
+      "bytes": 892,
+      "sha256": "69411bf688c2c8e3cfc01ca39993bd8481214e57133384b9f45d0fa29edd662a",
+      "md5": "4909056655bc9d1b5907c043b72d24a9"
+    },
+    {
+      "filename": "Reproduction_Compatibility_1_1_0.zip",
+      "bytes": 15130,
+      "sha256": "9eb6aa11973ee579d579a08d9a1edbcbcd69a097dd48f8593b9eda078372ab58",
+      "md5": "026b7094f95f7a073b6bc28585fb5c1c"
+    },
+    {
+      "filename": "Source_Data.zip",
+      "bytes": 481849,
+      "sha256": "a2ebefcc944a9fb0ae0eacaee299fbcd721de690719d11736d26222cb2185a50",
+      "md5": "14bcb4d66bb9c75ee0adc48402fc3400"
+    },
+    {
+      "filename": "Supplementary_Software_1.zip",
+      "bytes": 1981768,
+      "sha256": "c757972fb03a07b5caca18495053883c23923855166f721b12ff659e21f086d8",
+      "md5": "1b5d18b8aa4a9bf1836a9e5e3ede59e1"
+    },
+    {
+      "filename": "Supplementary_Software_2.zip",
+      "bytes": 5699461,
+      "sha256": "824fc2a9cac421393eca376b753b7340d7be9fb6d093af1ef1e6c8943be3827c",
+      "md5": "069af671194caa077d5430e82d9a39cf"
+    },
+    {
+      "filename": "Supplementary_Software_3.zip",
+      "bytes": 12183234,
+      "sha256": "ad2f475d3d5ca157d82b71cc0f98bab2b261c10f7a813622a14f8f1a92578774",
+      "md5": "2a0e2ef22960e4a54792fbcd4aaf0303"
+    },
+    {
+      "filename": "Supplementary_Software_4.zip",
+      "bytes": 6139828,
+      "sha256": "9617accb07ae3d7d862c5f6ab06ce7512c99a87fe07d4d916695cc83e0d0ca21",
+      "md5": "8ab03f83352a501a17c41282062c085b"
+    }
+  ]
+}

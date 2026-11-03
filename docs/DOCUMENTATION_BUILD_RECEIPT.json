@@ -1,0 +1,592 @@
+{
+  "Zenodo_version_record": "https://zenodo.org/records/23921914",
+  "assembly_date": "2026-11-03",
+  "canonical_source": "Markdown and accompanying exact data files",
+  "distribution_status_at_build": "prepared_for_publication",
+  "external_hyperlinks_not_requested": 20,
+  "html_local_targets_checked": 140,
+  "live_authenticated_service_verification": false,
+  "markdown_pages": 20,
+  "math_expressions": 21,
+  "math_svg_assets": [
+    {
+      "asset": "html/_math/c2817daf6e77f48c038604b39617f6a38734753b35954b269f654abba4813634.svg",
+      "display": false,
+      "height_pt": 13.151,
+      "mathml_asset": "html/_math/c2817daf6e77f48c038604b39617f6a38734753b35954b269f654abba4813634.mml",
+      "mathml_sha256": "756c6c0d1361d5020f5a3ef1e4af80220719ae83c04a08d14f38d0a80f1ef6bf",
+      "sha256": "07fe0d46a4bb2b7392e662a27ec7439f9f8f4a928193680a588e06c6e47a35ba",
+      "tex": "j",
+      "width_pt": 8.504
+    },
+    {
+      "asset": "html/_math/8dd05abae08359ea709a214f165416b4ca1710b4703c6ec59710e1615041835f.svg",
+      "display": false,
+      "height_pt": 13.616,
+      "mathml_asset": "html/_math/8dd05abae08359ea709a214f165416b4ca1710b4703c6ec59710e1615041835f.mml",
+      "mathml_sha256": "d619fc3585b1ebf199b40e671f54d48dc2a86edae62ea0c0fcb3cbf8f581ed08",
+      "sha256": "6eb28eba2a71134bc01187694f98fd022fb2dd7af06b807a182c3ddf4139b2b7",
+      "tex": "k=1,2",
+      "width_pt": 42.175
+    },
+    {
+      "asset": "html/_math/f7342850d7702c0179da32d2d8a5154bf2f97acf4e14f473eba173f06314e8b4.svg",
+      "display": false,
+      "height_pt": 14.501,
+      "mathml_asset": "html/_math/f7342850d7702c0179da32d2d8a5154bf2f97acf4e14f473eba173f06314e8b4.mml",
+      "mathml_sha256": "e0618e83dc1708f7121aa0051e9a4fa8d6483516b9e4f7fca14d2d43a6b1f314",
+      "sha256": "c8ee6f7ba6e4a33d6f93f2fce1cbc9639a2de383d49f54c4c21fe1650380b4d4",
+      "tex": "L_{kgj}",
+      "width_pt": 24.273
+    },
+    {
+      "asset": "html/_math/972e3654201a061307c18f77e864e23c58d63b8d18b72d0dc4f4658d536e1eeb.svg",
+      "display": false,
+      "height_pt": 13.018,
+      "mathml_asset": "html/_math/972e3654201a061307c18f77e864e23c58d63b8d18b72d0dc4f4658d536e1eeb.mml",
+      "mathml_sha256": "8436a568c17ac0407b4dbcae028558fe3d735464bff71318722752035df5aff1",
+      "sha256": "12b064af8653997df13c00dbbf2bc4fb62e80e9064adbc333ae89f0b6436addc",
+      "tex": "g=0,1",
+      "width_pt": 41.719
+    },
+    {
+      "asset": "html/_math/17490d6df5dbbb773d9d64378585824bf8ddc61e3b48a2dd2d55b3b40c8ce86c.svg",
+      "display": false,
+      "height_pt": 10.342,
+      "mathml_asset": "html/_math/17490d6df5dbbb773d9d64378585824bf8ddc61e3b48a2dd2d55b3b40c8ce86c.mml",
+      "mathml_sha256": "bc73f165c93fd95b017cc1fe4bbac419835b2d4aaa014ba1820908b55456d112",
+      "sha256": "87eea2f417618ba9f792ce6ab1264751253f5b21df5c838c0f1b6c6a8cf849b6",
+      "tex": "t",
+      "width_pt": 7.216
+    },
+    {
+      "asset": "html/_math/ac6afdf89e8f5108738d07d3c5f5916042030afd7a399eb907853af2ce8942b8.svg",
+      "display": true,
+      "height_pt": 15.298,
+      "mathml_asset": "html/_math/ac6afdf89e8f5108738d07d3c5f5916042030afd7a399eb907853af2ce8942b8.mml",
+      "mathml_sha256": "fdf58c1fc664080a2751286a11b02bf1b45ba417d5aca43b99c124bb2cf8ecee",
+      "sha256": "ffbea2ff775eb1bcdaa57e6fed799282b858a15179d333133a9e5580cc75055a",
+      "tex": "\nf_{kj}(t)=(1-t)L_{k0j}+tL_{k1j},\\qquad k=1,2.\n",
+      "width_pt": 212.781
+    },
+    {
+      "asset": "html/_math/e9e818c83626d706ce0658a564ac57f4639dfaac54e66aa90d0380b7b40bf8aa.svg",
+      "display": false,
+      "height_pt": 14.944,
+      "mathml_asset": "html/_math/e9e818c83626d706ce0658a564ac57f4639dfaac54e66aa90d0380b7b40bf8aa.mml",
+      "mathml_sha256": "99aa1319704f81795b839cbdbf957ff6639e15c01ecbe804f5cb351f26a88c70",
+      "sha256": "d6660bad50a33b4de2880ef0a8a48dfa0c9ae92ddc8e0d4f0cac59b908f493ca",
+      "tex": "[0,1]",
+      "width_pt": 26.442
+    },
+    {
+      "asset": "html/_math/823c5261dadad681a8c404930b92b1289b424ffd5686ac353870dd75ef861bf2.svg",
+      "display": false,
+      "height_pt": 11.689,
+      "mathml_asset": "html/_math/823c5261dadad681a8c404930b92b1289b424ffd5686ac353870dd75ef861bf2.mml",
+      "mathml_sha256": "03391b8085b027d68ad7525fe11605a46a20034845ca143a36229401a268c9d4",
+      "sha256": "50e1d1894b95983eedee39ff05e93d9504edba0ab5689bb29041ed7a6f81ec4b",
+      "tex": "-1",
+      "width_pt": 18.14
+    },
+    {
+      "asset": "html/_math/eddae7caa14651aef622c4763e36a0ff67ffa364970ba650e181b2b7c66fb735.svg",
+      "display": false,
+      "height_pt": 10.693,
+      "mathml_asset": "html/_math/eddae7caa14651aef622c4763e36a0ff67ffa364970ba650e181b2b7c66fb735.mml",
+      "mathml_sha256": "e3bfa23cb95d84c9301a76570dc33deba794848bf8d78691ec34457a9860e21a",
+      "sha256": "b5af9859c95a01ee61a611f71b9162ab96d91c5102085bda23da475000f4cce4",
+      "tex": "1",
+      "width_pt": 8.842
+    },
+    {
+      "asset": "html/_math/86e8eba3aecc829e0f5cbf7b9cef32edc31bf483f630288f1540925723e09850.svg",
+      "display": false,
+      "height_pt": 11.689,
+      "mathml_asset": "html/_math/86e8eba3aecc829e0f5cbf7b9cef32edc31bf483f630288f1540925723e09850.mml",
+      "mathml_sha256": "682b31b72efc7708b5f655ab629dfb4f214b953c41e0db9ebe2861b6e3f54635",
+      "sha256": "a13a474fd4e9c3600767a9a7723b0c9ed4316a372737c068e9433ffcfaebd65c",
+      "tex": "-0.008",
+      "width_pt": 38.951
+    },
+    {
+      "asset": "html/_math/c31592088c24ab7bbcfd6f2571e248dcc14b515e35fdb9eb8f72ca025200c970.svg",
+      "display": false,
+      "height_pt": 11.158,
+      "mathml_asset": "html/_math/c31592088c24ab7bbcfd6f2571e248dcc14b515e35fdb9eb8f72ca025200c970.mml",
+      "mathml_sha256": "e01386a46a8fa9b4fbda9efaae0db782e32223bc6f483ed631c4be79c0b21465",
+      "sha256": "8e9350a25c1cc6805e7ba39f8aa06762f9188ac8e4fb2e5ec99b0c0e501e8b21",
+      "tex": "M=12",
+      "width_pt": 43.015
+    },
+    {
+      "asset": "html/_math/e7c202ec3a554b2c6b64c00e855941e636372a7d510c708658395592f53cd07f.svg",
+      "display": false,
+      "height_pt": 10.693,
+      "mathml_asset": "html/_math/e7c202ec3a554b2c6b64c00e855941e636372a7d510c708658395592f53cd07f.mml",
+      "mathml_sha256": "6f0a55c1bea86884b3e4b006e874cc0dc3e45e070fc70851acb5d6a03641efb7",
+      "sha256": "1b8dcc7b4051ae8d6c16d880e4a3585576263bf7bafb1d6da2637a9e4f0216e1",
+      "tex": "\\alpha=0.05",
+      "width_pt": 47.067
+    },
+    {
+      "asset": "html/_math/2ea2bf3aa946d24d22fffe61e0d7d7f24798785f6dbc93f8d6133ac1d1835b1e.svg",
+      "display": false,
+      "height_pt": 14.944,
+      "mathml_asset": "html/_math/2ea2bf3aa946d24d22fffe61e0d7d7f24798785f6dbc93f8d6133ac1d1835b1e.mml",
+      "mathml_sha256": "3f0f08d823d18f9ef102cb23c30fec5f170692898adbc9cc73e3e173e1aef2b4",
+      "sha256": "6fbfa4c1d57772102ab6fd4a19a86ae1498a9ed2b3baea68a08803ee51002661",
+      "tex": "\\log(480)<25/4",
+      "width_pt": 83.931
+    },
+    {
+      "asset": "html/_math/42c8bad955d81dc0006a4bfb881d211aab3e02dc47349627ebe5d77ce26656b4.svg",
+      "display": false,
+      "height_pt": 11.689,
+      "mathml_asset": "html/_math/42c8bad955d81dc0006a4bfb881d211aab3e02dc47349627ebe5d77ce26656b4.mml",
+      "mathml_sha256": "6d49a94e460559174e11c4b7dd62c179cff14df854925cbf336c614804e9cc6c",
+      "sha256": "8cb0e1791a86a37b9267d99d9a236f729e9fce601a3b3c3daa47060eb2617db7",
+      "tex": "-0.00155866",
+      "width_pt": 68.216
+    },
+    {
+      "asset": "html/_math/7ecd670dd88b05937b6faa3f8733a94f2f297e06bde2c8089b7de39eaeeca961.svg",
+      "display": false,
+      "height_pt": 12.464,
+      "mathml_asset": "html/_math/7ecd670dd88b05937b6faa3f8733a94f2f297e06bde2c8089b7de39eaeeca961.mml",
+      "mathml_sha256": "509f5b9ce17ef261f3a1a5f888b382fe3cb053047fbf1f9a7998c212347d7445",
+      "sha256": "5c72cf92adce5b7a4a6d28bcf17fbd7a606b8a7e86eff95f9d2736d26883e66f",
+      "tex": "10^{-6}",
+      "width_pt": 26.014
+    },
+    {
+      "asset": "html/_math/1a97b3127c93c3003cf47df892b6fa6bd92d1388df4e497b7b8e52799994f9fb.svg",
+      "display": false,
+      "height_pt": 12.464,
+      "mathml_asset": "html/_math/1a97b3127c93c3003cf47df892b6fa6bd92d1388df4e497b7b8e52799994f9fb.mml",
+      "mathml_sha256": "a05aefc3cb26a474ef391fce9cbb8a83f252c7f6fefda5e216151d8149ede21c",
+      "sha256": "531b21ccc182e17e7d3f9e698fe53b681541add9e42a75e3940c9db234f8d5fe",
+      "tex": "10^{6}",
+      "width_pt": 19.427
+    },
+    {
+      "asset": "html/_math/fe9932cf1b9557470cf8e10f5c282fb3efe4cabea8f1c63e5d9ce7cb0570602e.svg",
+      "display": false,
+      "height_pt": 12.464,
+      "mathml_asset": "html/_math/fe9932cf1b9557470cf8e10f5c282fb3efe4cabea8f1c63e5d9ce7cb0570602e.mml",
+      "mathml_sha256": "0a285594d4861bcd55f28bfa0f075696036f38a3038142710f4719d38a55148e",
+      "sha256": "1f45bd51bd704d8dabb8ec7ff1fc59751973ba516ffe591752330ebf7db7db20",
+      "tex": "10^{9}",
+      "width_pt": 19.427
+    },
+    {
+      "asset": "html/_math/3d864cc2fe1ddc9a869da8601f72e745c3985d5663d218a0b40aab64a3b67722.svg",
+      "display": false,
+      "height_pt": 12.464,
+      "mathml_asset": "html/_math/3d864cc2fe1ddc9a869da8601f72e745c3985d5663d218a0b40aab64a3b67722.mml",
+      "mathml_sha256": "bb084594597537eed03cf3c4ed9d53b1594084a8d69cbc05252f9eb7f175dca9",
+      "sha256": "847ea26ffdad66b79e73eafd5d09ef845824c20585f20e187b6f814a8d4e2652",
+      "tex": "10^{12}",
+      "width_pt": 23.661
+    },
+    {
+      "asset": "html/_math/3a6b040091caec1c58962f26781228a3432e4ac4a662df00e2bc7196f8639178.svg",
+      "display": false,
+      "height_pt": 13.981,
+      "mathml_asset": "html/_math/3a6b040091caec1c58962f26781228a3432e4ac4a662df00e2bc7196f8639178.mml",
+      "mathml_sha256": "6cf912588986f4c45e857dc7cd34fa5dce1b0c419b1632e29462d5ca73d6e405",
+      "sha256": "698aa10e869291d93e096c662b46bee69dac7c8f7ccfde4a28ef365ba731f428",
+      "tex": "\\operatorname{Lip}_{\\infty}",
+      "width_pt": 29.024
+    }
+  ],
+  "native_browser_visual_test": "NOT_EXECUTED by this builder; actual formula/office QA is separate",
+  "native_mathml_sidecars_retained": true,
+  "network_dependent_loaded_assets": 0,
+  "new_Zenodo_DOI": "10.5281/zenodo.23921914",
+  "new_Zenodo_DOI_status": "RESERVED_IN_AUTHOR_SUPPLIED_DRAFT_EXPORT_AT_BUILD",
+  "pages": [
+    {
+      "anchors": [
+        "technical-documentation-for-sparse-interval-certificates",
+        "documentation-index",
+        "claim-and-resource-map",
+        "scientific-reading-map",
+        "documentation-catalogue",
+        "document-catalogue",
+        "documentation-identity-and-limits",
+        "identity-and-limits",
+        "documentation-build",
+        "rebuild-this-rendition"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/index.html",
+      "html_sha256": "77fc8b6ebb789ab0ef7ae5b9e70c93dd6cf0fea804e33acbb5da866e6de1e20e",
+      "markdown": "README.md",
+      "markdown_sha256": "63561b264acf3e9e6f126c623ec28dd16f7fdb8ac7b2b560ac3dfe3df182e26a",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "rebuild-the-offline-documentation"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/_build/README_BUILD.html",
+      "html_sha256": "4d785068a21488c919ab8138424037a111004afb2ac44e57ac845c3794586a39",
+      "markdown": "_build/README_BUILD.md",
+      "markdown_sha256": "77fea7f54ceccd34a10ffa5a040e1de4ef9a0b5fa4ad429706af44cfe0311d76",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "application-admission-and-prospective-models",
+        "admission-and-prospective-models",
+        "esm3-source-142",
+        "s241-scope-and-evidence-status",
+        "esm3-source-143",
+        "esm3-source-144",
+        "s242-a-common-finite-catalogue-model",
+        "esm3-source-145",
+        "esm3-source-146",
+        "esm3-source-147",
+        "esm3-source-148",
+        "esm3-source-149",
+        "s243-admission-questions-for-an-application",
+        "esm3-source-150",
+        "esm3-source-151",
+        "esm3-source-152",
+        "esm3-source-153",
+        "esm3-source-154",
+        "esm3-source-155",
+        "esm3-source-156",
+        "s244-potential-model-for-sensors-and-communications",
+        "esm3-source-157",
+        "esm3-source-158",
+        "s245-potential-model-for-operational-services-and-security",
+        "esm3-source-159",
+        "esm3-source-160",
+        "esm3-source-161",
+        "s246-what-the-structural-limits-contribute-to-practice",
+        "esm3-source-162",
+        "esm3-source-163"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/applications/admission-and-prospective-models.html",
+      "html_sha256": "1bbcb22669209cfc773799f209123ac073f4105a886481f15c42cbc06b1b7f15",
+      "markdown": "applications/admission-and-prospective-models.md",
+      "markdown_sha256": "1254a7a35b78543bb11c3470762ae2279b27d9cfc96081a79716878922e930fc",
+      "math_expressions": 9
+    },
+    {
+      "anchors": [
+        "complete-speculative-discovery-results",
+        "s21-4",
+        "s214-complete-exploratory-results"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/benchmarks/speculative-complete-results.html",
+      "html_sha256": "c12d9ff1f006d559d7df68ff62191e204b9e96a765bd9650d4aa57a913fbcebc",
+      "markdown": "benchmarks/speculative-complete-results.md",
+      "markdown_sha256": "7658f7be65d580b590d918c282f0db039f38666afdb503d190c8295d409b4f8e",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "complete-v2-and-v3-displayed-results",
+        "s20-4",
+        "s204-complete-v2-producer-and-evidence-size-table",
+        "s20-5",
+        "s205-complete-v3-producer-and-evidence-size-table",
+        "s20-6",
+        "s206-all-v2-recipient-prefixes",
+        "s20-7",
+        "s207-all-v3-recipient-prefixes"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/benchmarks/v2-v3-complete-results.html",
+      "html_sha256": "5582db1e57ecb2db446a4fbc93ceeaeb545d06393b481c9f92b602d5d28277ad",
+      "markdown": "benchmarks/v2-v3-complete-results.md",
+      "markdown_sha256": "d1ebb898897f77cea8acd4cbb9cf5ad0c4ea1b3cbb9c79fe7e6500d06ab3bbeb",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "distribution-scope-and-research-assets",
+        "companion-identity",
+        "current-companion-and-preserved-software",
+        "named-assets",
+        "named-research-assets",
+        "review-record",
+        "reading-the-scientific-record",
+        "rights",
+        "rights-and-excluded-material",
+        "version-use",
+        "version-specific-use"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/distribution/scope-and-assets.html",
+      "html_sha256": "51275fe7dad4111fa670efe5b642ab382b008ca56f1400c7abde07d6862b32ad",
+      "markdown": "distribution/scope-and-assets.md",
+      "markdown_sha256": "6fce7004900a387cc4a6119856ffca400b2fba18e9ff9ad2417231e36cea97fd",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "constructed-frozen-policy-validation-example",
+        "synthetic-low-variance-example",
+        "esm3-source-229"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/examples/frozen-policy-validation.html",
+      "html_sha256": "42ce9966d0787c23fe7e14da3f19b56d840b0148e5996509f9f2d2cae955e401",
+      "markdown": "examples/frozen-policy-validation.md",
+      "markdown_sha256": "c1a27517b6f4f3a248ee25b46c9defb7c8fd3b657ad3fa7213e9179bef549698",
+      "math_expressions": 7
+    },
+    {
+      "anchors": [
+        "figure-reconstruction-and-provenance",
+        "current-eight-figures",
+        "current-editable-figure-set",
+        "source-and-interpretation",
+        "source-interpretation",
+        "maps-and-production",
+        "maps-and-production-exports"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/figures/reconstruction-and-provenance.html",
+      "html_sha256": "075314824ebcb5d573e2625498e9617cded47cfc00f296e176fc7c0329037165",
+      "markdown": "figures/reconstruction-and-provenance.md",
+      "markdown_sha256": "f7000c52ed063cb170a9617c700541f4c57044255f994bcca4d0180dcc2ee7c3",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "mathematical-rendering-tools-and-font-notices",
+        "rendering-scope",
+        "build-and-inspection-boundary"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/licences/math-rendering-notices.html",
+      "html_sha256": "47aea66d068784fd4743dd25c3e52d7155159e036831677085b0712a852cb0c0",
+      "markdown": "licences/math-rendering-notices.md",
+      "markdown_sha256": "1e6c349c907efa291be5c254ee8e2b61e1013fbe200a6403c7d0f36f2c6e15b4",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "exact-protocol-reference-for-mathematical-certificates",
+        "selector-cover-schema",
+        "selector-cover-and-packing-schemas",
+        "compression-input-boundary",
+        "compression-input-boundary-heading",
+        "one-cell-input-contract",
+        "one-cell-input-contract-heading",
+        "one-cell-statuses",
+        "one-cell-statuses-heading",
+        "reference-cited-in-these-entries"
+      ],
+      "automatic_heading_id_adjustments": [
+        {
+          "automatic_heading_id": "compression-input-boundary",
+          "explicit_anchor_retained": "compression-input-boundary",
+          "html_heading_id": "compression-input-boundary-heading"
+        },
+        {
+          "automatic_heading_id": "one-cell-input-contract",
+          "explicit_anchor_retained": "one-cell-input-contract",
+          "html_heading_id": "one-cell-input-contract-heading"
+        },
+        {
+          "automatic_heading_id": "one-cell-statuses",
+          "explicit_anchor_retained": "one-cell-statuses",
+          "html_heading_id": "one-cell-statuses-heading"
+        }
+      ],
+      "html": "html/reference/esm1-protocols.html",
+      "html_sha256": "81b489b02b13ec8aa2320b6f5df798a5aac34e91976c4d7aad4570e792e158bc",
+      "markdown": "reference/esm1-protocols.md",
+      "markdown_sha256": "57bce204b17b5a963e1d07a2e9f950f45fc86ede0a4da9f829d46ac955ee502b",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "recorded-controls-for-mathematical-certificate-software",
+        "regularity-controls",
+        "regularity-diagnostic-controls",
+        "bounded-discovery-failures",
+        "bounded-discovery-failures-heading",
+        "adaptive-arithmetic-checks",
+        "adaptive-witness-arithmetic-checks"
+      ],
+      "automatic_heading_id_adjustments": [
+        {
+          "automatic_heading_id": "bounded-discovery-failures",
+          "explicit_anchor_retained": "bounded-discovery-failures",
+          "html_heading_id": "bounded-discovery-failures-heading"
+        }
+      ],
+      "html": "html/reproducibility/esm1-controls.html",
+      "html_sha256": "3ad9702bb30e6fd3fe7495cc2365d6acedbe95ecca707e1c6afe7ba0ad758522",
+      "markdown": "reproducibility/esm1-controls.md",
+      "markdown_sha256": "09a0cb450eed3ed89c72deaa36f2b8e80f7529686262ea0c7ded4d7124dd1f43",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "application-source-and-reconstruction-ledgers",
+        "uci-source-and-software",
+        "uci-release-and-study-software",
+        "esm3-source-132",
+        "uwb-reconstruction",
+        "civilian-uwb-reconstruction",
+        "esm3-source-140",
+        "archived-study-verification",
+        "archived-study-verification-and-source-boundaries",
+        "esm3-source-188",
+        "esm3-source-189",
+        "esm3-source-191"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/reproduction/application-source-ledgers.html",
+      "html_sha256": "e578ebd310009ced508b44f454cb7dec56c2deab9324e7ed14ee9d1ec19abad0",
+      "markdown": "reproduction/application-source-ledgers.md",
+      "markdown_sha256": "2fb77b445e555291d129c8cd6634f7f6a7a6b15e2a773c6338ea8e8aac6d4cab",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "reproduction-environments-and-route-boundaries",
+        "reading-and-replay",
+        "read-first-and-execute-only-the-intended-route",
+        "scientific-environments",
+        "distinct-environment-requirements",
+        "new-output-and-guards",
+        "output-directories-and-integrity-guards",
+        "limits",
+        "what-a-successful-local-replay-establishes"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/reproduction/environment-and-routes.html",
+      "html_sha256": "93c5c3290120d3ed07ba40523b5b0f326557eea672b18fbdeee6dfd240d7fae3",
+      "markdown": "reproduction/environment-and-routes.md",
+      "markdown_sha256": "2b45cade518b58682f327a5a35158bbad4cc3f12ecd942639c51a05ce8dbaeb2",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "implementation-replay-and-source-records",
+        "s14-7",
+        "s147-r13-source-and-replay-records",
+        "s15-7",
+        "s157-r14-portable-replay-and-owner-records"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/reproduction/implementation-records.html",
+      "html_sha256": "08a34a334e9fc8ab59b807e08763518f03c741a4ee170e3602b53f207dab40af",
+      "markdown": "reproduction/implementation-records.md",
+      "markdown_sha256": "2acee31df269a9e9370845d4f4874e5201051cd28c9fdf47b992e5439e7787f3",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "speculative-study-source-records",
+        "s21-7",
+        "s217-frozen-records-and-scope"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/reproduction/speculative-study.html",
+      "html_sha256": "f5ace6bd91ef38517c71e26c294153b8b9dd78ac45b9ad8d662a9e7dfeed41c3",
+      "markdown": "reproduction/speculative-study.md",
+      "markdown_sha256": "361e9e6f0b7cf06716f872d838468ee81b323c4fe99cd15729fe5a469ee60e47",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "v2-and-v3-evidence-records-and-reproduction",
+        "s20-8",
+        "s208-records-integrity-and-reproduction",
+        "references"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/reproduction/v2-v3.html",
+      "html_sha256": "2fe341e8334cf925f64bd44f189d612a749871d662dc2600588f2c04a0ad54e2",
+      "markdown": "reproduction/v2-v3.md",
+      "markdown_sha256": "df01328d1f65069c32a676ef702c565c835622c911f46cfac72c7e579b2cd4c5",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "claim-and-evidence-reading-map",
+        "review-reading-map",
+        "claim-proof-record-map",
+        "scientific-claims-and-their-evidence",
+        "how-to-use-review-map",
+        "using-the-map"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/review/claim-evidence-map.html",
+      "html_sha256": "c372cf396a135200292d44da72f157591c69a76af159e0c350082260f7c2ccd4",
+      "markdown": "review/claim-evidence-map.md",
+      "markdown_sha256": "663b57307c8b951b8925fca1d47d2ae8a217c954e0da187257191b9fe6c72e11",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "historical-verification-evidence",
+        "s9",
+        "s9-historical-control-banks"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/validation/historical-evidence.html",
+      "html_sha256": "5b74adcdd086b0f31794a43af856fba882d56f90641f429b2c24879d47cb973c",
+      "markdown": "validation/historical-evidence.md",
+      "markdown_sha256": "c7eef96b521deaaecaac585fb0cfc0ca221dc0bec782ffcc01a4534f3accf837",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "r13-and-r14-validation-control-records",
+        "s14-5",
+        "s145-complete-r13-control-bank",
+        "s15-6",
+        "s156-complete-r14-control-bank"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/validation/r13-r14-controls.html",
+      "html_sha256": "de3f38ad1dd90980a3854e040fd700bc15ce094aeee918f901b7bc81478fc84d",
+      "markdown": "validation/r13-r14-controls.md",
+      "markdown_sha256": "6497240bd855db162988072c63adfe262b007004df55e44b15552c9ba990b9fb",
+      "math_expressions": 0
+    },
+    {
+      "anchors": [
+        "exact-reconstruction-of-extension-proposals",
+        "variation-reconstruction",
+        "esm3-source-97"
+      ],
+      "automatic_heading_id_adjustments": [],
+      "html": "html/verification/extension-reconstruction.html",
+      "html_sha256": "4432a5d6ed3b3afe4527d0fcae1d67d1f3fdb8034ee9506eb4ce4954b2391ff1",
+      "markdown": "verification/extension-reconstruction.md",
+      "markdown_sha256": "1991a19d2e5a598b719b2410fa29dbc231875e2f525d5c16a66e2ec460726df5",
+      "math_expressions": 5
+    }
+  ],
+  "pandoc": "pandoc 3.1.3",
+  "pdflatex": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+  "pdftocairo": "pdftocairo version 24.02.0",
+  "planned_GitHub_tag": "v1.2.0",
+  "planned_distribution_version": "1.2.0",
+  "publication_performed": false,
+  "python_minimum": "3.11",
+  "release_title": "Sparse interval certificates for parametric biobjective optimisation — technical documentation and scientific companion",
+  "reservation_evidence": "Author-supplied Zenodo draft JSON export; identity consistency checked, not live authenticated service verification",
+  "schema": "RADAR_D3_DOI_BOUND_DOCUMENTATION_BUILD_V1",
+  "scientific_experiments_executed": false,
+  "source_draft_export_sha256": "4b23627c422d0b9a9edc296f2e15a161b3a19504da9ecf4753277b85718ee794",
+  "source_local_targets_checked": 59,
+  "source_tree_bytes_and_sets_unchanged": true,
+  "status": "PASS_DOCUMENTATION_BUILD_AND_STATIC_OFFLINE_CLOSURE",
+  "visible_math_rendition": "locally typeset vector SVG with exact accessible TeX labels"
+}

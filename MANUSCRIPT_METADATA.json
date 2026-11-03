@@ -1,29 +1,30 @@
 {
-  "schema": "NCS_PUBLIC_SOFTWARE_MANUSCRIPT_METADATA_V2",
-  "manuscript_title": "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates",
-  "manuscript_abstract": "Certifying a reference outcome's exclusion from every weighted-sum optimum at every point of a parameter interval requires evidence between sampled points. For explicitly listed rational affine biobjective families with m competing alternatives, we prove that interval-wide unsupportedness admits certificates with at most 3m+72 rational closed cells, each using at most two alternatives and affine-over-affine weights. Every accepted support-two certificate with K cells converts into a globally continuous support-three certificate with at most 3K-2 cells, preserving the weight form and controlling rational coefficient height with linear additional rational work. Examples establish that support three and linearly many cells can be necessary. False instances admit algebraic obstructions of degree at most two, including an isolated failure missed by every rational sample. Exact producers and separate checkers make the certificates executable. Validated-envelope extensions and bounded public-data studies delimit the model and its practical interpretation.",
-  "language": "en-GB",
-  "author": {
-    "given_name": "Antonio",
-    "family_name": "Clim",
-    "orcid": "0000-0003-4745-0431",
-    "affiliation": "Bucharest University of Economic Studies, Bucharest, Romania"
+  "schema": "RADAR_REPOSITORY_MANUSCRIPT_LOCATOR_D3_V1",
+  "article_title": "Sparse interval certificates for parametric biobjective optimisation: linear cell bounds and quantitative continuity",
+  "creator": {
+    "name": "Antonio Clim",
+    "ORCID": "0000-0003-4745-0431",
+    "affiliation": "Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies, Bucharest, Romania"
   },
-  "manuscript_revision": "F11 source-reconstruction access closure",
-  "article_doi": null,
-  "relationship": "Accompanying manuscript; software metadata does not assert article publication or acceptance",
-  "public_distribution_version": "1.1.0",
-  "runtime_baseline": "0.1.0-dev.10",
-  "repository_url": "https://github.com/antonioclim/sparse-interval-certificates",
-  "release_url": "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.1.0",
-  "zenodo_version_doi": "10.5281/zenodo.23649107",
-  "zenodo_record_url": "https://zenodo.org/records/23649107",
-  "zenodo_concept_doi": "10.5281/zenodo.23633154",
-  "previous_version_doi": "10.5281/zenodo.23633155",
-  "distribution_date": "2026-10-25",
-  "publication_status_authority": "The public GitHub release and Zenodo record, not this prepared metadata file",
-  "review_mode": "standard_identified",
-  "licences": "Original code BSD-3-Clause; original non-code CC-BY-4.0; retained third-party terms take precedence",
-  "AI_declaration_unchanged_from_current_manuscript": "ChatGPT and Codex (OpenAI) assisted with English-language editing, mathematical exposition and extension drafting, converting notation into editable Microsoft Word equations (Office Math Markup Language, OMML), bibliographic checks, research-protocol drafting, software implementation and debugging, code review and validation scripts. AI-assisted tool execution supported source-data processing, computational reruns and document checks. The mathematical claims are supported by the supplied proofs and computational evidence; AI output and checks conducted through AI assistance are not treated as external independent evidence or formal verification. Independently written checks are distinguished from independent external replication. The figures were produced through reproducible plotting and vector-graphics workflows, with editable source files retained. The author assumes responsibility for all content and for approving the final version for submission.",
-  "RouterBench_distribution": "Source-reconstruction edition; source data and derived numeric input/proof payloads excluded"
+  "distribution_title": "Sparse interval certificates for parametric biobjective optimisation — technical documentation and scientific companion",
+  "distribution_version": "1.2.0",
+  "distribution_DOI": "10.5281/zenodo.23921914",
+  "article_DOI": null,
+  "state_at_build": "prepared_for_publication",
+  "scientific_companion_asset": "RADAR_JGO_Scientific_Companion_1.2.0.zip",
+  "scientific_locator_base": "Extraction root of the named scientific companion asset, not the repository tree",
+  "scientific_document_map_inside_asset": "CURRENT_DOCUMENTS_D3.json",
+  "native_reconstruction_inside_asset": "01_Submission/05_Reproduction_Verification/RUN_CURRENT_REPRODUCTION_D3.py",
+  "article_components_PDF_pages": [
+    19,
+    8,
+    6,
+    4
+  ],
+  "thematic_supplement_PDF_pages": [
+    53,
+    20,
+    21
+  ],
+  "technical_documentation_in_repository": "docs/README.md"
 }

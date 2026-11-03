@@ -1,30 +1,11 @@
-Creative Commons Attribution 4.0 International (CC BY 4.0)
+Creative Commons Attribution 4.0 International — original current companion material
 
-Copyright (c) 2026 Antonio Clim, for the original materials identified in
-RIGHTS_STATUS.md and the component-level LICENSE_SCOPE.json files inside the
-scientific archives.
-
-Antonio Clim licenses his original documentation, figures and data in this
-public package, including original synthetic data, author-generated data and
-derived tables, under the Creative Commons Attribution 4.0 International
-License. This is the operative authorisation for the stated original-material
-scope, given on 24 October 2026. It does not relicense third-party components.
-
-The complete, authoritative licence terms are available at:
-https://creativecommons.org/licenses/by/4.0/legalcode
-Human-readable summary:
-https://creativecommons.org/licenses/by/4.0/
-
-This notice incorporates those licence terms by reference; it is not a rewritten
-substitute for the legal code. Attribute Antonio Clim and the named source work,
-link the licence and indicate modifications as required by that licence.
-
-Source work: What weighted sums miss: linear cell bounds and quantitative
-continuity of sparse interval certificates — software and reproducibility
-materials, public distribution 1.1.0.
-GitHub release: https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.1.0
-Zenodo version DOI: https://doi.org/10.5281/zenodo.23649107
-
-Third-party source datasets, fonts, notices and attribution retain their own
-licences. See RIGHTS_STATUS.md and the component-level LICENSE_SCOPE.json
-files and notices inside each scientific archive for the exact scope.
+Copyright 2026 Antonio Clim.
+Original manuscript text, artwork, documentation and author-generated data in
+this current local companion are licensed under CC BY 4.0 as already authorised
+for this project. See https://creativecommons.org/licenses/by/4.0/legalcode .
+This is not a replacement for archived public 1.1.0 notices. Original code is
+covered separately by BSD-3-Clause. All third-party terms, attribution and source
+restrictions remain operative. See LICENSE_SCOPE.json and component notices.
+No permission is granted for excluded RouterBench numeric sources, aggregates
+or dependent proof payloads, or for a publisher version of record.

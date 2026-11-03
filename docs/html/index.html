@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="RADAR D3 offline documentation"><title>Technical documentation for sparse interval certificates</title><style>html{font-size:16px;color:#161616;background:#fff}body{max-width:72rem;margin:0 auto;padding:1.5rem 2rem 4rem;font-family:Georgia,"Times New Roman",serif;line-height:1.55}main{min-width:0}h1,h2,h3,h4{color:#111;line-height:1.25;break-after:avoid}h1{font-size:2rem;margin:1rem 0 1.2rem}h2{font-size:1.45rem;margin-top:2rem}h3{font-size:1.15rem;margin-top:1.6rem}p,ul,ol{margin:0.85rem 0}a{color:#064f83;text-underline-offset:0.14em}a:focus{outline:2px solid #064f83;outline-offset:3px}nav{font:0.9rem/1.5 system-ui,sans-serif;margin-bottom:1.4rem;display:flex;flex-wrap:wrap;gap:0.4rem 1.2rem}nav a{white-space:nowrap}pre{padding:0.9rem;background:#f4f5f6;border:1px solid #ddd;overflow:auto;line-height:1.4}code{font-family:ui-monospace,Consolas,monospace;font-size:0.88em}p code,li code,td code{overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow-x:auto;font-size:0.91rem;margin:1.2rem 0;font-variant-numeric:tabular-nums}th,td{padding:0.55rem 0.7rem;border:1px solid #ccc;vertical-align:top}th{background:#e9edf0;text-align:left}tbody tr:nth-child(even){background:#fafafa}img,svg{max-width:100%;height:auto}.typeset-math img.math-svg{vertical-align:middle}.typeset-math.display-math{display:block;text-align:center;max-width:100%;overflow-x:auto;margin:1rem 0}.typeset-math.inline-math{white-space:nowrap}.typeset-math [hidden]{display:none!important}math{font-size:1.05em}math[display="block"]{display:block;max-width:100%;overflow-x:auto;margin:1rem 0}blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid #bbb}footer{font:0.82rem/1.5 system-ui,sans-serif;margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd}.table-container{overflow-x:auto}@media(max-width:650px){body{padding:1rem;font-size:1rem}h1{font-size:1.65rem}table{font-size:0.85rem}}@media print{body{max-width:none;padding:0;font-size:10.5pt}nav{display:none}pre{white-space:pre-wrap;overflow-wrap:anywhere}table{display:table;width:100%;font-size:8.7pt}th,td{padding:0.35em 0.5em}thead{display:table-header-group}tr{break-inside:avoid}math[display="block"]{overflow:visible}a{color:inherit}footer{font-size:8pt}}</style></head><body><nav aria-label="Documentation navigation"><a href="index.html">Documentation index</a> · <a href="../README.md">Canonical Markdown</a> · <a href="distribution/scope-and-assets.html#companion-identity">Companion identity</a></nav><main><h1 id="technical-documentation-for-sparse-interval-certificates">Technical documentation for sparse interval certificates</h1>
+<p><a id="documentation-index"></a></p>
+<p>This documentation accompanies <strong>Sparse interval certificates for parametric biobjective optimisation: linear cell bounds and quantitative continuity</strong>, by <strong>Antonio Clim</strong>, prepared for the <strong>Journal of Global Optimization</strong>. Affiliation: Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies, Bucharest, Romania. Correspondence: <a href="mailto:antonio.clim@csie.ase.ro">antonio.clim@csie.ase.ro</a>.</p>
+<p>The three thematic supplementary PDFs retain the scientific statements, arguments, measurement contracts and balanced results. This technical companion supplies expanded formats, complete tables, source records and reproduction detail. Article Appendices A-C are separate components of the article, rather than replacements for Online Resources 1-3.</p>
+<p>Start with the <a href="review/claim-evidence-map.html#review-reading-map">claim and evidence reading map</a> to locate each claim's indispensable proof and evidence. The map organises access to the review record; it does not make scientific dependencies optional or substitute page counts for the difficulty of checking the work.</p>
+<p>Read this file on GitHub or open <a href="index.html">the offline HTML index</a> after extracting the complete documentation tree. The HTML is generated from the canonical Markdown. Mathematical expressions use locally typeset SVG images with exact LaTeX labels and preserved MathML sidecars, without a network-dependent renderer. Full evidence can be read without executing the scientific software.</p>
+<p><a id="claim-and-resource-map"></a></p>
+<h2 id="scientific-reading-map">Scientific reading map</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Scientific question</th>
+<th>Primary review location</th>
+<th>Expanded technical route</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Central linear certificate bound, continuity conversion and quadratic obstructions</td>
+<td>Main manuscript and article Appendices A-C</td>
+<td>Mathematical format, example and validation documents below</td>
+</tr>
+<tr class="even">
+<td>Complementary proof languages, minimum claims and regularity</td>
+<td>Online Resource 1</td>
+<td>Formats, exact-example expansions and regularity records</td>
+</tr>
+<tr class="odd">
+<td>Implemented algorithms, comparison design and adverse computational outcomes</td>
+<td>Online Resource 2</td>
+<td>Complete V2/V3 and speculative-study tables, historical controls and replay guides</td>
+</tr>
+<tr class="even">
+<td>Conditional extensions and bounded application studies</td>
+<td>Online Resource 3</td>
+<td>Extension reconstruction, application admission and source ledgers</td>
+</tr>
+<tr class="odd">
+<td>Original software, retained observations and proof records</td>
+<td>Online Resources 4-9</td>
+<td><a href="distribution/scope-and-assets.html#named-assets">Asset map</a></td>
+</tr>
+<tr class="even">
+<td>Compatibility, current document assembly and this documentation</td>
+<td>Online Resource 10</td>
+<td><a href="reproduction/environment-and-routes.html#reading-and-replay">Environments and routes</a></td>
+</tr>
+</tbody>
+</table>
+<p><a id="documentation-catalogue"></a></p>
+<h2 id="document-catalogue">Document catalogue</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Readable document</th>
+<th>Canonical Markdown source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="applications/admission-and-prospective-models.html">Application admission and prospective models</a></td>
+<td><code>applications/admission-and-prospective-models.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="benchmarks/speculative-complete-results.html">Complete speculative discovery results</a></td>
+<td><code>benchmarks/speculative-complete-results.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="benchmarks/v2-v3-complete-results.html">Complete V2 and V3 displayed results</a></td>
+<td><code>benchmarks/v2-v3-complete-results.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="distribution/scope-and-assets.html">Distribution scope and research assets</a></td>
+<td><code>distribution/scope-and-assets.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="examples/frozen-policy-validation.html">Constructed frozen-policy validation example</a></td>
+<td><code>examples/frozen-policy-validation.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="figures/reconstruction-and-provenance.html">Figure reconstruction and provenance</a></td>
+<td><code>figures/reconstruction-and-provenance.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="licences/math-rendering-notices.html">Mathematical rendering tools and font notices</a></td>
+<td><code>licences/math-rendering-notices.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="reference/esm1-protocols.html">Exact protocol reference for mathematical certificates</a></td>
+<td><code>reference/esm1-protocols.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="reproducibility/esm1-controls.html">Recorded controls for mathematical certificate software</a></td>
+<td><code>reproducibility/esm1-controls.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="reproduction/application-source-ledgers.html">Application source and reconstruction ledgers</a></td>
+<td><code>reproduction/application-source-ledgers.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="reproduction/environment-and-routes.html">Reproduction environments and route boundaries</a></td>
+<td><code>reproduction/environment-and-routes.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="reproduction/implementation-records.html">Implementation replay and source records</a></td>
+<td><code>reproduction/implementation-records.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="reproduction/speculative-study.html">Speculative study source records</a></td>
+<td><code>reproduction/speculative-study.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="reproduction/v2-v3.html">V2 and V3 evidence records and reproduction</a></td>
+<td><code>reproduction/v2-v3.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="review/claim-evidence-map.html">Claim and evidence reading map</a></td>
+<td><code>review/claim-evidence-map.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="validation/historical-evidence.html">Historical verification evidence</a></td>
+<td><code>validation/historical-evidence.md</code></td>
+</tr>
+<tr class="odd">
+<td><a href="validation/r13-r14-controls.html">R13 and R14 validation control records</a></td>
+<td><code>validation/r13-r14-controls.md</code></td>
+</tr>
+<tr class="even">
+<td><a href="verification/extension-reconstruction.html">Exact reconstruction of extension proposals</a></td>
+<td><code>verification/extension-reconstruction.md</code></td>
+</tr>
+</tbody>
+</table>
+<p><a id="documentation-identity-and-limits"></a></p>
+<h2 id="identity-and-limits">Identity and limits</h2>
+<p>D3 identifies the DOI-bound document-assembly stage prepared for distribution 1.2.0. The version DOI <a href="https://doi.org/10.5281/zenodo.23921914">10.5281/zenodo.23921914</a> was reserved in the author-supplied Zenodo draft export used for this build; the corresponding <a href="https://zenodo.org/records/23921914">version record</a> and GitHub v1.2.0 release identify this technical documentation and scientific companion. Publication status is verified separately through the services. Journal status is separate. The named scientific distribution 1.1.0 assets remain unchanged, with their own historical DOI. <a href="distribution/scope-and-assets.html#rights">Distribution scope and licences</a> records source-specific rights and excluded material.</p>
+<p>An exact stored-input result does not itself establish a population or deployment claim. Historical timing observations remain historical; documentation migration does not rerun them. Native Word/Windows testing and external human replication remain outside the recorded local scope. Mathematical claims are supported by the supplied arguments and computational evidence; AI-assisted output is not independent external evidence or formal verification. See the manuscript's unchanged assistance declaration for the author-approved scope.</p>
+<p><a id="documentation-build"></a></p>
+<h2 id="rebuild-this-rendition">Rebuild this rendition</h2>
+<p>Use Python and Pandoc, with the supplied TeX/Poppler mathematics route when equations are present, from a directory containing the complete docs tree:</p>
+<pre class="text"><code>python docs/_build/build_docs.py --source docs --output &quot;rebuilt docs&quot;</code></pre>
+<p>The output destination must not exist. The builder preserves Markdown and data bytes, regenerates HTML and checks local targets, anchors, source-math annotations and the complete inventory. It does not run a scientific experiment. Build details are in <a href="_build/README_BUILD.html">the build guide</a>.</p>
+</main><footer>Antonio Clim · Journal of Global Optimization preparation · D3 technical companion · Prepared for distribution 1.2.0 · Version DOI 10.5281/zenodo.23921914 reserved at build; service publication status is verified separately. Generated from canonical Markdown.</footer></body></html>

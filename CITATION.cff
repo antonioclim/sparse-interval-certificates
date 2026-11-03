@@ -1,23 +1,19 @@
 cff-version: 1.2.0
 type: software
-message: "Cite research-software distribution 1.1.0 using its Zenodo version DOI. The preserved core runtime baseline is 0.1.0-dev.10; historical sources retain their actual identities."
-title: "What weighted sums miss: linear cell bounds and quantitative continuity of sparse interval certificates — software and reproducibility evidence"
-version: "1.1.0"
-date-released: "2026-10-25"
-url: "https://github.com/antonioclim/sparse-interval-certificates/releases/tag/v1.1.0"
+message: Cite distribution 1.2.0 through its version DOI. This frozen payload was prepared using the reserved Zenodo draft identity; actual public service status is confirmed separately. Original research archives retain their 1.1.0 source identities and component-specific rights.
+title: Sparse interval certificates for parametric biobjective optimisation — technical documentation and scientific companion
 authors:
-  - family-names: "Clim"
-    given-names: "Antonio"
-    orcid: "https://orcid.org/0000-0003-4745-0431"
-    affiliation: "Bucharest University of Economic Studies, Bucharest, Romania"
-repository-code: "https://github.com/antonioclim/sparse-interval-certificates"
-doi: "10.5281/zenodo.23649107"
-abstract: "Exact sparse interval certificate producers and separate checkers, continuous conversion, regularity diagnostics and reproducibility materials. Distribution 1.1.0 adds validated-envelope, synthesis and implicit-DAG modules plus a source-reconstruction route for RouterBench. Original code is BSD-3-Clause; original non-code material is CC BY 4.0. Third-party rights remain component-specific."
+- family-names: Clim
+  given-names: Antonio
+  orcid: https://orcid.org/0000-0003-4745-0431
+  affiliation: Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies, Bucharest, Romania
+abstract: Editable manuscript and supplementary documents, eight native figure sources and guarded reconstruction routes for sparse interval certificates in parametric biobjective optimisation. Component identities, computational evidence and verification scope are recorded with the supplied sources.
 keywords:
-  - "biobjective optimisation"
-  - "weighted-sum scalarisation"
-  - "sparse certificates"
-  - "quantitative continuity"
-  - "exact arithmetic"
-  - "certificate verification"
-  - "reproducible computational research"
+- parametric optimisation
+- sparse certificates
+- biobjective optimisation
+- exact verification
+- continuous selections
+version: 1.2.0
+doi: 10.5281/zenodo.23921914
+url: https://zenodo.org/records/23921914

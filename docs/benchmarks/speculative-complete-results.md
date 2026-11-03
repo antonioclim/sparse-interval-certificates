@@ -1,0 +1,40 @@
+# Complete speculative discovery results
+
+Article: Sparse interval certificates for parametric biobjective optimisation: linear cell bounds and quantitative continuity.
+
+Author: Antonio Clim. Journal of Global Optimization.
+
+This technical documentation accompanies Online Resource 2 and is supplied with Online Resource 10. It retains the complete migrated text and displayed table values from the source-bound 28-page ESM2 presentation. The scientific release 1.1.0 and its named archives are unchanged. No experiment or timing run was performed by this migration.
+
+<a id="s21-4"></a>
+## S21.4 Complete exploratory results
+
+The full measurement contract and all four failed continuation thresholds remain in the scientific PDF. Medians and observed ranges below are descriptive, not confidence intervals.
+
+All 192 objects were accepted, comprising 132 positive certificates and 60 negative obstructions. All methods agreed on each of the 16 verdicts. No timeout, execution error, incomplete result, exclusion or retry occurred in this campaign. Source identities remained unchanged. The table reports medians [minimum, maximum] of the complete workflow in seconds; ranges are descriptive and are not confidence intervals.
+
+| Exploratory case | Event (s) | R14 exact (s) | R14 optional (s) | Speculative (s) |
+| --- | --- | --- | --- | --- |
+| Lower N=4 | 0.157 [0.151, 0.185] | 0.213 [0.210, 0.216] | 0.766 [0.722, 0.812] | 0.748 [0.726, 0.865] |
+| Lower N=8 | 0.164 [0.157, 0.165] | 0.237 [0.233, 0.253] | 0.744 [0.731, 0.763] | 0.787 [0.742, 0.787] |
+| Lower N=16 | 0.217 [0.199, 0.226] | 0.347 [0.329, 0.348] | 0.778 [0.773, 0.789] | 0.744 [0.737, 0.803] |
+| Lower N=32 | 0.538 [0.536, 0.616] | 0.703 [0.684, 0.756] | 0.830 [0.809, 0.972] | 0.871 [0.820, 0.886] |
+| Lower N=64 | 2.626 [2.620, 10.314] | 1.852 [1.801, 1.862] | 0.993 [0.964, 1.002] | 0.927 [0.923, 0.942] |
+| Constant mixed positive | 0.148 [0.139, 0.208] | 0.199 [0.172, 0.224] | 0.686 [0.672, 0.694] | 0.715 [0.699, 0.885] |
+| Irrational-only negative | 0.159 [0.145, 0.279] | 0.218 [0.167, 0.219] | 0.750 [0.697, 0.901] | 0.691 [0.688, 0.782] |
+| Point positive | 0.145 [0.139, 0.161] | 0.192 [0.190, 0.247] | 0.794 [0.758, 0.797] | 0.764 [0.720, 0.808] |
+| Segment positive | 0.155 [0.141, 0.185] | 0.191 [0.190, 0.202] | 0.735 [0.700, 0.741] | 0.735 [0.712, 0.745] |
+| Planar positive | 0.149 [0.147, 0.154] | 0.197 [0.193, 0.212] | 0.776 [0.738, 0.779] | 0.743 [0.727, 0.986] |
+| Growing facets n=8 | 0.152 [0.142, 0.158] | 0.188 [0.172, 0.190] | 0.692 [0.683, 0.704] | 0.839 [0.752, 0.853] |
+| Growing facets n=32 | 0.165 [0.155, 0.214] | 0.261 [0.247, 0.289] | 0.758 [0.734, 0.870] | 0.719 [0.716, 0.803] |
+| Growing facets n=64 | 0.214 [0.210, 0.326] | 0.601 [0.434, 0.626] | 0.798 [0.737, 1.075] | 0.712 [0.704, 0.781] |
+| Growing facets n=128 | 0.351 [0.336, 0.362] | 1.204 [1.203, 1.350] | 0.848 [0.762, 0.908] | 0.799 [0.756, 0.856] |
+| Positive sliver 512 bits | 0.148 [0.146, 0.152] | 0.226 [0.198, 0.231] | 0.754 [0.732, 0.756] | 0.741 [0.733, 0.860] |
+| Positive pure 2,048 bits | 0.168 [0.146, 0.192] | 0.179 [0.178, 0.183] | 0.754 [0.712, 0.838] | 0.745 [0.742, 0.763] |
+
+Exact displayed cells: [s21_4_speculative_results.csv](../data/esm2/s21_4_speculative_results.csv).
+
+The speculative route completed 27 of its 48 runs; whole-producer exact fallback completed the other 21. The same seven cases fell back in every repetition: the constant mixed positive, irrational-only negative, point, segment and planar positives, the 512-bit sliver and the 2,048-bit pure positive. All failed speculative work and subsequent exact work remain in the times above. The speculative route handled all five lower-family and all four growing-facet cases.
+
+Final proof hash sets were identical between the speculative and existing optional R14 producers on every one of the 16 inputs. This experiment establishes no additional compactness benefit. On the growing-facet negatives, event proofs occupy 163 bytes, whereas the speculative proofs occupy 177 or 181 bytes. None of these finite observations is an output-uniqueness or universal minimum-size claim.
+

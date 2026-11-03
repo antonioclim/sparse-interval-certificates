@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="RADAR D3 offline documentation"><title>Claim and evidence reading map</title><style>html{font-size:16px;color:#161616;background:#fff}body{max-width:72rem;margin:0 auto;padding:1.5rem 2rem 4rem;font-family:Georgia,"Times New Roman",serif;line-height:1.55}main{min-width:0}h1,h2,h3,h4{color:#111;line-height:1.25;break-after:avoid}h1{font-size:2rem;margin:1rem 0 1.2rem}h2{font-size:1.45rem;margin-top:2rem}h3{font-size:1.15rem;margin-top:1.6rem}p,ul,ol{margin:0.85rem 0}a{color:#064f83;text-underline-offset:0.14em}a:focus{outline:2px solid #064f83;outline-offset:3px}nav{font:0.9rem/1.5 system-ui,sans-serif;margin-bottom:1.4rem;display:flex;flex-wrap:wrap;gap:0.4rem 1.2rem}nav a{white-space:nowrap}pre{padding:0.9rem;background:#f4f5f6;border:1px solid #ddd;overflow:auto;line-height:1.4}code{font-family:ui-monospace,Consolas,monospace;font-size:0.88em}p code,li code,td code{overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow-x:auto;font-size:0.91rem;margin:1.2rem 0;font-variant-numeric:tabular-nums}th,td{padding:0.55rem 0.7rem;border:1px solid #ccc;vertical-align:top}th{background:#e9edf0;text-align:left}tbody tr:nth-child(even){background:#fafafa}img,svg{max-width:100%;height:auto}.typeset-math img.math-svg{vertical-align:middle}.typeset-math.display-math{display:block;text-align:center;max-width:100%;overflow-x:auto;margin:1rem 0}.typeset-math.inline-math{white-space:nowrap}.typeset-math [hidden]{display:none!important}math{font-size:1.05em}math[display="block"]{display:block;max-width:100%;overflow-x:auto;margin:1rem 0}blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid #bbb}footer{font:0.82rem/1.5 system-ui,sans-serif;margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd}.table-container{overflow-x:auto}@media(max-width:650px){body{padding:1rem;font-size:1rem}h1{font-size:1.65rem}table{font-size:0.85rem}}@media print{body{max-width:none;padding:0;font-size:10.5pt}nav{display:none}pre{white-space:pre-wrap;overflow-wrap:anywhere}table{display:table;width:100%;font-size:8.7pt}th,td{padding:0.35em 0.5em}thead{display:table-header-group}tr{break-inside:avoid}math[display="block"]{overflow:visible}a{color:inherit}footer{font-size:8pt}}</style></head><body><nav aria-label="Documentation navigation"><a href="../index.html">Documentation index</a> · <a href="../../review/claim-evidence-map.md">Canonical Markdown</a> · <a href="../distribution/scope-and-assets.html#companion-identity">Companion identity</a></nav><main><h1 id="claim-and-evidence-reading-map">Claim and evidence reading map</h1>
+<p><a id="review-reading-map"></a></p>
+<p>This map accompanies <strong>Sparse interval certificates for parametric biobjective optimisation: linear cell bounds and quantitative continuity</strong>, by Antonio Clim, prepared for the <strong>Journal of Global Optimization</strong>. Affiliation: Department of Economic Informatics and Cybernetics, Bucharest University of Economic Studies, Bucharest, Romania. Correspondence: <a href="mailto:antonio.clim@csie.ase.ro">antonio.clim@csie.ase.ro</a>.</p>
+<p>The map organises the review material by scientific claim so that a reader can locate its statement, proof and evidence directly. It is a reading aid, not an exemption from reviewing any assertion or a certificate of correctness. The indispensable arguments remain in the article, its separate Appendices A-C and the thematic supplementary PDFs. Expanded technical chapters preserve the detailed records and procedures relocated from those supplements.</p>
+<p>Here <strong>Main</strong> means <code>Manuscript_JGO.pdf</code>; <strong>Appendix A</strong>, <strong>B</strong> and <strong>C</strong> mean <code>Appendix_A_JGO.pdf</code>, <code>Appendix_B_JGO.pdf</code> and <code>Appendix_C_JGO.pdf</code>. <strong>ESM 1</strong>, <strong>ESM 2</strong> and <strong>ESM 3</strong> mean the three thematic PDFs <code>ESM_1.pdf</code>, <code>ESM_2.pdf</code> and <code>ESM_3.pdf</code>. Section and theorem identifiers follow those review documents. They are not new Online Resource numbers.</p>
+<p><a id="claim-proof-record-map"></a></p>
+<h2 id="scientific-claims-and-their-evidence">Scientific claims and their evidence</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Claim or question</th>
+<th>Indispensable scientific proof or evidence</th>
+<th>Expanded technical chapter</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Linear size and rational encoding of interval-wide support-two certificates</td>
+<td>Main 2.1-2.2; Appendix A, A.1-A.5, including the construction and lower family. ESM 1, S12.2-S12.4, supplies the geometric primitives, degeneracies and construction details used by the theoretical bound. The qualitative selection antecedent is examined in ESM 1, S19 and Main 3.</td>
+<td><a href="../reference/esm1-protocols.html#selector-cover-schema">Certificate protocol reference</a>. The technical reference does not replace the theoretical construction proof.</td>
+</tr>
+<tr class="even">
+<td>Quantitative continuity conversion, sharp support threshold and regularity</td>
+<td>Main 2.3; Appendix B, B.1-B.8. ESM 1, S16.6, gives the quantified sharpness neighbourhood; S19 identifies the qualitative antecedent; S22 gives the exact regularity diagnostic and adverse steep-bridge example. ESM 2, S18.3, describes the implemented conversion evidence.</td>
+<td><a href="../reproducibility/esm1-controls.html#regularity-controls">Regularity controls</a> and <a href="../reproducibility/esm1-controls.html#adaptive-arithmetic-checks">adaptive arithmetic checks</a>.</td>
+</tr>
+<tr class="odd">
+<td>Quadratic negative evidence and isolated failure missed by rational sampling</td>
+<td>Main 2.4 and 4.1; Appendix C, C.1-C.5, contains the degree, encoding, direct verification and isolated irrational example. ESM 2, S14.1 and S14.6, retains the implemented negative branch and adverse controls.</td>
+<td><a href="../reproduction/implementation-records.html#s14-7">Implementation records</a> and <a href="../reproduction/environment-and-routes.html#limits">replay boundaries</a>.</td>
+</tr>
+<tr class="even">
+<td>Distinctions between feasibility, selector minima and canonical cell minima</td>
+<td>Main 2.5; ESM 1, Sections 6-7, S1-S4, S7-S8 and S11. These arguments distinguish charged policy languages, support-span exclusions, rational completeness and the additional work needed for minimum claims.</td>
+<td><a href="../reference/esm1-protocols.html#selector-cover-schema">Cover and packing schemas</a>, <a href="../reference/esm1-protocols.html#one-cell-input-contract">one-cell input contract</a> and <a href="../reference/esm1-protocols.html#one-cell-statuses">status meanings</a>.</td>
+</tr>
+<tr class="odd">
+<td>Implemented producer/checker correctness and computational boundaries</td>
+<td>Main 2.6 and 4.1-4.3; ESM 2, S14-S15. The one-shift, boundary-completeness and LP-cost arguments remain in the PDF. The implemented quadratic clipper is distinct from the theoretical near-linear constructor.</td>
+<td><a href="../validation/r13-r14-controls.html#s14-5">R13/R14 controls</a> and <a href="../reproduction/implementation-records.html#s15-7">implementation replay records</a>.</td>
+</tr>
+<tr class="even">
+<td>Comparative evidence size, repeated acceptance and speculative-discovery results</td>
+<td>Main 2.6 and 4.3–4.4; ESM 2, S20.1-S20.3 and the retained S20.4-S20.7 summaries. The post-hoc comparator correction, timing boundaries, paired statistics and nested prefixes remain essential. S21 retains the speculative design; S21.5 retains all four failed continuation thresholds and the stopped expansion.</td>
+<td><a href="../benchmarks/v2-v3-complete-results.html#s20-4">Complete V2/V3 results</a>, including <a href="../benchmarks/v2-v3-complete-results.html#s20-7">V3 recipient prefixes</a>; <a href="../benchmarks/speculative-complete-results.html#s21-4">complete speculative results</a>; <a href="../reproduction/v2-v3.html#s20-8">V2/V3 records</a>.</td>
+</tr>
+<tr class="odd">
+<td>Conditional envelopes, prescribed-margin synthesis and implicit catalogues</td>
+<td>Main 2.7 and 4.6; ESM 3, S25-S26. The proofs, acceptance predicates, sufficient-condition qualifications, implemented/unimplemented distinctions and adverse outcomes remain in the PDF.</td>
+<td><a href="../verification/extension-reconstruction.html#variation-reconstruction">Extension proposal reconstruction</a>.</td>
+</tr>
+<tr class="even">
+<td>Bounded empirical classifier catalogue study</td>
+<td>Main 3 and 4.5; ESM 3, S23. The loss definitions, primary and post-hoc grouped designs, outcome table, accepted witness and overlap/population limitations remain part of the review evidence.</td>
+<td><a href="../reproduction/application-source-ledgers.html#uci-source-and-software">Classifier source and software ledger</a>.</td>
+</tr>
+<tr class="odd">
+<td>Retained UWB pilot and archived RouterBench, ASlib and Padua studies</td>
+<td>Main 3 and 4.6; ESM 3, S9.2 and S27. The adverse pilot outcome, admission/exclusion rules, study table, modelling choices and source restrictions remain visible in the PDF.</td>
+<td><a href="../reproduction/application-source-ledgers.html#uwb-reconstruction">UWB reconstruction</a> and <a href="../reproduction/application-source-ledgers.html#archived-study-verification">archived-study verification ledger</a>.</td>
+</tr>
+<tr class="even">
+<td>Conditional operational interpretation and statistical validation of a frozen policy</td>
+<td>Main 3 and 4.6; ESM 3, S28. The assignment assumptions, error/overhead budget, finite-family derivation and multiplicity conditions remain in the PDF. The route is conditional; it is not a successful population-confirmation analysis.</td>
+<td><a href="../examples/frozen-policy-validation.html#synthetic-low-variance-example">Constructed frozen-policy illustration</a>, explicitly separated from a coverage study or deployment result.</td>
+</tr>
+<tr class="odd">
+<td>Whether a proposed application can exhibit the claimed phenomenon</td>
+<td>Main 3; ESM 1, Adaptive witnesses and static objective coordinates, Parts A-B; ESM 3, S24. The static-coordinate and row-rescaling restrictions are substantive admission checks. Prospective sensing/security scenarios are distinguished from executed studies.</td>
+<td><a href="../applications/admission-and-prospective-models.html#admission-and-prospective-models">Application admission and prospective models</a>.</td>
+</tr>
+<tr class="even">
+<td>Data, software, figures and exact version/source identities</td>
+<td>Main 4.7 and 5.1-5.2; the corresponding Online Resources 4-10 and component notices. Availability and rights conditions apply to the exact supporting inputs.</td>
+<td><a href="../distribution/scope-and-assets.html#named-assets">Asset map</a>, <a href="../distribution/scope-and-assets.html#rights">rights boundaries</a>, <a href="../reproduction/environment-and-routes.html#reading-and-replay">reproduction routes</a> and <a href="../figures/reconstruction-and-provenance.html#source-and-interpretation">figure provenance</a>.</td>
+</tr>
+</tbody>
+</table>
+<p><a id="how-to-use-review-map"></a></p>
+<h2 id="using-the-map">Using the map</h2>
+<p>For a mathematical assertion, follow the relevant Main and Appendix entries together with the listed supplementary proof dependencies. For an empirical or implementation assertion, read its design, acceptance contract and adverse outcomes before consulting the complete technical records. The expanded chapters are available for reading without running the software; reproduction remains a separate activity.</p>
+<p>The purpose of the redistribution is to make the evidence easier to locate and to remove repeated operational detail from the scientific reading route. A smaller PDF page count does not by itself measure the difficulty of the mathematics or predict editorial screening or reviewer availability. No proof dependency in the table is designated optional.</p>
+</main><footer>Antonio Clim · Journal of Global Optimization preparation · D3 technical companion · Prepared for distribution 1.2.0 · Version DOI 10.5281/zenodo.23921914 reserved at build; service publication status is verified separately. Generated from canonical Markdown.</footer></body></html>

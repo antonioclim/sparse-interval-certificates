@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="RADAR D3 offline documentation"><title>R13 and R14 validation control records</title><style>html{font-size:16px;color:#161616;background:#fff}body{max-width:72rem;margin:0 auto;padding:1.5rem 2rem 4rem;font-family:Georgia,"Times New Roman",serif;line-height:1.55}main{min-width:0}h1,h2,h3,h4{color:#111;line-height:1.25;break-after:avoid}h1{font-size:2rem;margin:1rem 0 1.2rem}h2{font-size:1.45rem;margin-top:2rem}h3{font-size:1.15rem;margin-top:1.6rem}p,ul,ol{margin:0.85rem 0}a{color:#064f83;text-underline-offset:0.14em}a:focus{outline:2px solid #064f83;outline-offset:3px}nav{font:0.9rem/1.5 system-ui,sans-serif;margin-bottom:1.4rem;display:flex;flex-wrap:wrap;gap:0.4rem 1.2rem}nav a{white-space:nowrap}pre{padding:0.9rem;background:#f4f5f6;border:1px solid #ddd;overflow:auto;line-height:1.4}code{font-family:ui-monospace,Consolas,monospace;font-size:0.88em}p code,li code,td code{overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow-x:auto;font-size:0.91rem;margin:1.2rem 0;font-variant-numeric:tabular-nums}th,td{padding:0.55rem 0.7rem;border:1px solid #ccc;vertical-align:top}th{background:#e9edf0;text-align:left}tbody tr:nth-child(even){background:#fafafa}img,svg{max-width:100%;height:auto}.typeset-math img.math-svg{vertical-align:middle}.typeset-math.display-math{display:block;text-align:center;max-width:100%;overflow-x:auto;margin:1rem 0}.typeset-math.inline-math{white-space:nowrap}.typeset-math [hidden]{display:none!important}math{font-size:1.05em}math[display="block"]{display:block;max-width:100%;overflow-x:auto;margin:1rem 0}blockquote{margin:1rem 0;padding-left:1rem;border-left:3px solid #bbb}footer{font:0.82rem/1.5 system-ui,sans-serif;margin-top:3rem;padding-top:1rem;border-top:1px solid #ddd}.table-container{overflow-x:auto}@media(max-width:650px){body{padding:1rem;font-size:1rem}h1{font-size:1.65rem}table{font-size:0.85rem}}@media print{body{max-width:none;padding:0;font-size:10.5pt}nav{display:none}pre{white-space:pre-wrap;overflow-wrap:anywhere}table{display:table;width:100%;font-size:8.7pt}th,td{padding:0.35em 0.5em}thead{display:table-header-group}tr{break-inside:avoid}math[display="block"]{overflow:visible}a{color:inherit}footer{font-size:8pt}}</style></head><body><nav aria-label="Documentation navigation"><a href="../index.html">Documentation index</a> · <a href="../../validation/r13-r14-controls.md">Canonical Markdown</a> · <a href="../distribution/scope-and-assets.html#companion-identity">Companion identity</a></nav><main><h1 id="r13-and-r14-validation-control-records">R13 and R14 validation control records</h1>
+<p>Article: Sparse interval certificates for parametric biobjective optimisation: linear cell bounds and quantitative continuity.</p>
+<p>Author: Antonio Clim. Journal of Global Optimization.</p>
+<p>This technical documentation accompanies Online Resource 2 and is supplied with Online Resource 10. It retains the complete migrated text and displayed table values from the source-bound 28-page ESM2 presentation. The scientific release 1.1.0 and its named archives are unchanged. No experiment or timing run was performed by this migration.</p>
+<p><a id="s14-5"></a></p>
+<h2 id="s145-complete-r13-control-bank">S14.5 Complete R13 control bank</h2>
+<p>These same-host banks address different questions and contain overlapping constructed examples, so their counts must not be summed as disjoint instances. The reference RN classifier has separately written rational, quadratic-field and event arithmetic; it imports no producer geometry, discovery or point arithmetic. The final production gate deliberately shares R1 acceptance arithmetic. Geometry and LP oracles use exhaustive small-system vertex construction rather than production discovery.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Bank</th>
+<th>Executed count</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Separate geometry oracle</td>
+<td>97 fixtures in two row orders</td>
+<td>194 comparisons passed</td>
+</tr>
+<tr class="even">
+<td>Separate LP oracle</td>
+<td>111 fixtures in three seeded orders</td>
+<td>333 comparisons passed</td>
+</tr>
+<tr class="odd">
+<td>Separate dual checks</td>
+<td>105 identities and 105 mutations</td>
+<td>All identities accepted and mutations rejected</td>
+</tr>
+<tr class="even">
+<td>Separate Farkas checks</td>
+<td>Six identities and 24 mutations</td>
+<td>All identities accepted and mutations rejected</td>
+</tr>
+<tr class="odd">
+<td>Global producer vs RN oracle</td>
+<td>49 instances, 23 true and 26 false</td>
+<td>All classifications agreed; 95 malformed objects rejected</td>
+</tr>
+<tr class="even">
+<td>Owner geometry</td>
+<td>290 synthetic oracle comparisons</td>
+<td>Passed; four input-type controls rejected</td>
+</tr>
+<tr class="odd">
+<td>Owner LP</td>
+<td>126 fixtures, three seeds</td>
+<td>378 comparisons passed; 376 malformed controls rejected</td>
+</tr>
+<tr class="even">
+<td>Owner integrated producer</td>
+<td>18 mode-and-fixture executions</td>
+<td>Passed; all 26 observed R1 calls used at most four columns</td>
+</tr>
+</tbody>
+</table>
+<p>Exact displayed cells: <a href="../../data/esm2/s14_5_controls.csv">s14_5_controls.csv</a>.</p>
+<p><a id="s15-6"></a></p>
+<h2 id="s156-complete-r14-control-bank">S15.6 Complete R14 control bank</h2>
+<p>Hashed reference arithmetic and inherited fixtures identify this regression: 97 geometry, 111 LP and 49 RN fixtures reused from the earlier separate-code audit. Rerunning them against R14 does not create new scientific instances. The reference RN classifier uses its own rational/quadratic-field arithmetic and imports no production discovery or checker arithmetic for verdicts. Final acceptance deliberately shares the unchanged R1 gate.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Separate-code check</th>
+<th>Final result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Geometry in original and reversed row orders</td>
+<td>194 agreements</td>
+</tr>
+<tr class="even">
+<td>LP in two randomisation modes and three seeds</td>
+<td>666 agreements</td>
+</tr>
+<tr class="odd">
+<td>Sparse duals and altered dual values</td>
+<td>105 accepted identities and 105 rejections</td>
+</tr>
+<tr class="even">
+<td>Infeasible cores and altered Farkas objects</td>
+<td>6 accepted identities and 24 rejections</td>
+</tr>
+<tr class="odd">
+<td>Global RN with exact clipping</td>
+<td>49 oracle agreements and 95 malformed-proof rejections</td>
+</tr>
+<tr class="even">
+<td>Global RN with optional proposals</td>
+<td>The same 49 agreements and 95 rejections</td>
+</tr>
+<tr class="odd">
+<td>Deliberately malformed geometric proposals</td>
+<td>14 direct rejections and 14 correct fallbacks</td>
+</tr>
+<tr class="even">
+<td>Missing optional dependency</td>
+<td>2 correct fallbacks</td>
+</tr>
+<tr class="odd">
+<td>Resource or interruption exceptions</td>
+<td>3 propagated without a mathematical verdict</td>
+</tr>
+<tr class="even">
+<td>Targeted LP hint scenarios</td>
+<td>14 successful checks across both modes</td>
+</tr>
+<tr class="odd">
+<td>Invalid LP arguments or core metadata</td>
+<td>14 rejections</td>
+</tr>
+<tr class="even">
+<td>Paired versus single shifted construction</td>
+<td>10 identical-object comparison pairs</td>
+</tr>
+<tr class="odd">
+<td>Explicit interior construction</td>
+<td>18 exact confirmations</td>
+</tr>
+</tbody>
+</table>
+<p>Exact displayed cells: <a href="../../data/esm2/s15_6_controls.csv">s15_6_controls.csv</a>.</p>
+<p>These rows overlap. The geometry regression observed 166 accepted proposals and 28 exact fallbacks. The producer regression observed 58 accepted proposals and 30 fallbacks in its 88 certified-path geometry calls; these counts refer to its own inherited 49-case bank, which differs from the benchmark bank. Six additional valid proposal constructions include a 160-bit thin full-dimensional polytope, positive-proportional rows and duplicated candidate vertices. Boolean and floating original coefficients are rejected before proposal generation.</p>
+</main><footer>Antonio Clim · Journal of Global Optimization preparation · D3 technical companion · Prepared for distribution 1.2.0 · Version DOI 10.5281/zenodo.23921914 reserved at build; service publication status is verified separately. Generated from canonical Markdown.</footer></body></html>
